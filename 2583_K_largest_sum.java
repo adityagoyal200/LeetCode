@@ -18,13 +18,14 @@ import java.util.Queue;
              this.right = right;
          }
      }
+
 class Solution {
     public long kthLargestLevelSum(TreeNode root, int k){
         PriorityQueue<Long> pq = new PriorityQueue<>();
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
         int count = 1;
-    
+        
         while(!queue.isEmpty()){
             count = queue.size();
             Long sum = (long) 0;
@@ -43,7 +44,7 @@ class Solution {
                 pq.offer(sum);
             }
         }
-        return pq.size() < k? -1: pq.peek();
+        return pq.size() < k ?-1: pq.peek();
     }
 }
 /*The code uses a PriorityQueue (a min heap implementation) to store the k largest level sums encountered so far. It also uses a Queue to traverse the binary tree level by level, starting from the root.
