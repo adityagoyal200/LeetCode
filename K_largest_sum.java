@@ -19,7 +19,7 @@ import java.util.Queue;
          }
      }
 class Solution {
-    public long kthLargestLevelSum(TreeNode root, int k) {
+    public long kthLargestLevelSum(TreeNode root, int k){
         PriorityQueue<Long> pq = new PriorityQueue<>();
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
