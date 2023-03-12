@@ -55,7 +55,7 @@ If the loop completes without finding a cycle, then the code returns null. */
                 slow = slow.next;
                 fast = fast.next;
             }
-            return slow;
+           return slow;
         }
     }
     return null;
