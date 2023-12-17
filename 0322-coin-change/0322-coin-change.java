@@ -4,28 +4,28 @@ class Solution {
             return -1;
         }
 
-        int[][] dp = new int[coins.length + 1][amount + 1]; // dp array
+        int[][] dp = new int[coins.length + 1][amount + 1];
+        int m = dp.length;
+        int n = dp[0].length;
 
-        // Initialize the table
-        for (int i = 0; i <= coins.length; i++) {
-            dp[i][0] = 0;
+        for (int i = 0; i < n; i++) {
+            dp[0][i] = amount + 1;
         }
 
-        for (int i = 1; i <= amount; i++) {
-            dp[0][i] = amount + 1; // Set to a value greater than any possible solution
-        }
-
-        // Fill the table using bottom-up DP
-        for (int i = 1; i <= coins.length; i++) {
-            for (int j = 1; j <= amount; j++) {
+        for (int i = 1; i < m; i++) {
+            for (int j = 1; j < n; j++) {
                 if (j < coins[i - 1]) {
-                    dp[i][j] = dp[i - 1][j]; // Don't include the coin
+                    dp[i][j] = dp[i - 1][j];
                 } else {
-                    dp[i][j] = Math.min(dp[i - 1][j], 1 + dp[i][j - coins[i - 1]]); // Choose the minimum of not including the coin and including the coin
+                    dp[i][j] = Math.min(dp[i - 1][j], 1 + dp[i][j - coins[i - 1]]);
                 }
             }
         }
 
-        return dp[coins.length][amount] > amount ? -1 : dp[coins.length][amount];
+        if (dp[m - 1][n - 1] == amount + 1) {
+            return -1;
+        }
+
+        return dp[m - 1][n - 1];
     }
 }
