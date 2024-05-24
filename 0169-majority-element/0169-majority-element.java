@@ -18,14 +18,7 @@ class Solution {
             }
             i++;
         }
-        /**check if ele  is majority*/
-        int majority = nums.length /2;
-        int cnt = 0;
-        for(int j = 0; j< nums.length; j++){
-            if(nums[j] == ele){
-                cnt++;
-            }
-        }
-        return (cnt > majority) ? ele: -1;
+        
+        return ele;
     }
 }
