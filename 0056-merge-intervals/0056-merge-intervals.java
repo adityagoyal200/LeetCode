@@ -8,22 +8,19 @@ class Solution {
         
         List<int[]> ans = new ArrayList<>();
 
-        for(int i = 0; i < n; i++){
-            int start = intervals[i][0];
-            int end = intervals[i][1];
+        int start = intervals[0][0];
+        int end = intervals[0][1];
 
-            if (!ans.isEmpty() && end <= ans.get(ans.size() - 1)[1]) {
-                continue;
+        for(int i = 1; i < n; i++){
+            if(intervals[i][0] <= end){
+                end = Math.max(intervals[i][1],end);
+            } else {
+                ans.add(new int[]{start,end});
+                start = intervals[i][0];
+                end = intervals[i][1];
             }
-            for(int j =i+1; j <n; j++){
-                if(intervals[j][0] <= end){
-                    end = Math.max(end, intervals[j][1]);
-                } else {
-                    break;
-                }
-            }
-            ans.add(new int[]{start,end});
         }
+        ans.add(new int[]{start,end});
         
         return ans.toArray(new int[ans.size()][]);
     }
