@@ -1,5 +1,3 @@
-import java.util.HashMap;
-
 class Solution {
     public boolean checkSubarraySum(int[] nums, int k) {
         if (nums == null || nums.length == 0 ) {
@@ -13,6 +11,10 @@ class Solution {
             prefixSum += nums[i];
             prefixSum %= k;
             
+            if(prefixSum == 0 && i>=1){
+                return true;
+            }
+
             if (map.containsKey(prefixSum)) {
                 int len = i - map.get(prefixSum);
                 if (len >= 2) {
