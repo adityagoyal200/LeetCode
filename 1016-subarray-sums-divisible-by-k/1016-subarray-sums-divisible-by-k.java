@@ -20,7 +20,7 @@ class Solution {
             }
             
             if (map.containsKey(remainder)) {
-                count += map.get(remainder); // Add the frequency of this remainder to the count
+                count += map.get(remainder); 
             }
             
             map.put(remainder, map.getOrDefault(remainder, 0) + 1);
