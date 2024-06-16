@@ -6,19 +6,21 @@ class Solution {
 
         int low = 0;
         int high = nums.length-1;
-        
-        while(low <= high){
-            int mid = low + (high - low)/2;
 
-            if(nums[mid] < target){
-                low = mid+1;
-            } else if(nums[mid] > target){
-                high = mid-1;
-            }else {
-                return mid;
-            }
+        return binarySearch(nums,low,high,target);
+    }
+    private int binarySearch(int[] arr, int low, int high, int target){
+        if(low > high){
+            return -1;
         }
-
-        return -1;
+        
+        int mid = low + (high - low) / 2;
+        if(arr[mid] == target){
+            return mid;
+        } else if(arr[mid] > target){
+            return binarySearch(arr, low, mid-1, target);
+        } else {
+            return binarySearch(arr, mid+1, high, target);
+        }
     }
 }
