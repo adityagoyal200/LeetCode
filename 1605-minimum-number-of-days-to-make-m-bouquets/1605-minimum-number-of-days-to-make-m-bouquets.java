@@ -10,11 +10,13 @@ class Solution {
         }
         
         long maxDays = 0;
+        long minDays = 0;
         for(int day: bloomDay){
             maxDays = Math.max(day,maxDays);
+            minDays = Math.min(day,minDays);
         }
 
-        long low = 1;
+        long low = minDays;
         long high = maxDays;
         long ans = -1;
 
