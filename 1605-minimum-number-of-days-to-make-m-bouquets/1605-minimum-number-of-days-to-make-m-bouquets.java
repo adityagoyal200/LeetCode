@@ -3,9 +3,9 @@ class Solution {
         if(bloomDay == null || bloomDay.length == 0){
             return -1;
         }
-        int len = bloomDay.length;
+        long len = bloomDay.length;
 
-        if(len < m*k){
+        if(len < (long)m*k){
             return -1;
         }
         
@@ -40,14 +40,13 @@ class Solution {
         for(int bloom: bloomDay){
             if(bloom <= day){
                 count++;
-                if(count == flowers){
-                    total++;
-                    count = 0;
-                }
             } else {
+                total += count/flowers;
                 count = 0;
             }      
         }
+
+        total += count/flowers;
 
         return total;
     }
