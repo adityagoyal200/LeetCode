@@ -3,24 +3,22 @@ class Solution {
         if(arr == null || arr.length == 0){
             return -1;
         }
-        int max = 0;
-        HashSet<Integer> set = new HashSet<>();
-        for(int num: arr){
-            set.add(num);
-            max = Math.max(max, num);
+        int low  = 0;
+        int high = arr.length -1;
+
+        //finding the two nearest indexes of missing numbers
+
+        while(low <= high){
+            int mid = low + (high - low)/2;
+            int missing = arr[mid] - (mid+1);
+
+            if(missing < k){
+                low = mid+1;
+            } else {
+                high = mid - 1;
+            }
         }
 
-        int miss = 0;
-        for(int i = 1; i<= max; i++){
-            if(!set.contains(i)){
-                miss++;
-            }
-            if(miss == k){
-                return i;
-            }
-        }
-
-        return max + (k-miss);
-        
+        return low+k;
     }
 }
