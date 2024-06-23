@@ -20,17 +20,20 @@ class Solution {
 
         return high;
     }
-    private boolean isPossible(int[] arr, int force, int balls){
-        int ball = 1;
+    private boolean isPossible(int[] arr, int force, int m){
+        int balls = 1;
         int lastPosi = arr[0];
 
         for(int i = 1; i < arr.length; i++){
             if(Math.abs(arr[i] - lastPosi) >= force){
-                ball++;
-                lastPosi = arr[i]; 
+                balls++;
+                lastPosi = arr[i];
+                if(balls == m) {
+                    return true; 
+                } 
             } 
         }
 
-        return ball >= balls;
+        return false;
     }
 }
