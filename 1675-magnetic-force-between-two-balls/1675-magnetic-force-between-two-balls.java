@@ -6,6 +6,11 @@ class Solution {
 
         Arrays.sort(position);
         int n = position.length;
+
+        if(m == 2){
+            return position[n-1] - position[0];
+        }
+
         int low = 1;
         int high = Math.abs(position[n-1]-position[0]);
 
