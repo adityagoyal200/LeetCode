@@ -1,23 +1,10 @@
 class Solution {
     public int findCenter(int[][] edges) {
-        if(edges == null || edges.length == 0){
-            return -1;
+        // Check if the first node of the first edge is the same as either node in the second edge
+        if (edges[0][0] == edges[1][0] || edges[0][0] == edges[1][1]) {
+            return edges[0][0];
         }
-        
-        HashMap<Integer,List<Integer>> map = new HashMap<>();
-        for(int i = 0; i < edges.length; i++){
-            if(map.containsKey(edges[i][0])){
-                return edges[i][0];
-            } else if(map.containsKey(edges[i][1])){
-                return edges[i][1];
-            }
-            
-            map.put(edges[i][0], new ArrayList<>());
-            map.put(edges[i][1], new ArrayList<>());
-            map.get(edges[i][0]).add(edges[i][1]);
-            map.get(edges[i][1]).add(edges[i][0]);
-        }
-
-        return -1;
+        // Otherwise, the second node of the first edge must be the center
+        return edges[0][1];
     }
 }
