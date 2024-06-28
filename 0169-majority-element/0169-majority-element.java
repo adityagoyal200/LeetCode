@@ -3,22 +3,34 @@ class Solution {
         if(nums == null || nums.length == 0){
             return -1;
         }
-        int ele = nums[0];
-        int count = 1;
+
+        int cnt = 1;
         int i = 1;
-        while(i < nums.length){
-            if(count == 0){
+        int ele = nums[0];
+        int n = nums.length;
+
+        while(i < n){
+            if(cnt == 0){
                 ele = nums[i];
-                count = 1;
             }
-            else if(nums[i] == ele){
-                count++;
+            if(nums[i] == ele){
+                cnt++;
             } else {
-                count--;
+                cnt--;
             }
+
             i++;
         }
+
+        for(i = 0 ; i < n ; i++){
+            if(nums[i] == ele){
+                cnt++;
+            }
+        }
+
+        System.out.println(ele);
+
+        return (cnt > n/2) ? ele : -1;
         
-        return ele;
     }
 }
