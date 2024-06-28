@@ -28,8 +28,6 @@ class Solution {
             }
         }
 
-        System.out.println(ele);
-
         return (cnt > n/2) ? ele : -1;
         
     }
