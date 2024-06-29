@@ -3,14 +3,16 @@ class Solution {
         if(prices == null || prices.length == 0){
             return 0;
         }
+        
         int miniCost = prices[0];
-        int mProfit = 0;
+        int maxProfit = 0;
+
         for(int i = 1; i < prices.length; i++){
             int cost = prices[i] - miniCost;
-            mProfit = Math.max(mProfit,cost);
+            maxProfit = Math.max(maxProfit,cost);
             miniCost =  Math.min(miniCost,prices[i]);
         }
 
-        return mProfit;
+        return maxProfit;
     }
 }
