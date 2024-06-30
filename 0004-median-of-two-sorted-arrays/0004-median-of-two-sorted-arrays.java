@@ -15,11 +15,12 @@ class Solution {
         int n = n1+n2;
 
         int low = 0;
+        int left = (n1+n2+1)/2;
         int high = n1;
 
         while(low <= high){
             int mid1 = low + (high - low)/2;
-            int mid2 = (n1+n2+1)/2 - mid1;
+            int mid2 = left - mid1;
 
             int l1 = (mid1 -1 >= 0) ? arr1[mid1-1] : Integer.MIN_VALUE;
             int l2 = (mid2 -1 >= 0) ? arr2[mid2-1] : Integer.MIN_VALUE;
