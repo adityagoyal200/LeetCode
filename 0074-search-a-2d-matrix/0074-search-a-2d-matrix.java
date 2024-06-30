@@ -4,8 +4,20 @@ class Solution {
             return false;
         }
 
+        
+
         int rowLen = matrix.length;
         int colLen = matrix[0].length;
+
+        if(rowLen == 1 && colLen == 1){
+            if(matrix[0][0] == target){
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        
         for(int i = 0; i < matrix.length; i++){
             if(matrix[i][0] <= target && matrix[i][colLen-1] >= target){
                 return binarySearch(matrix,i,target,0,colLen-1);
