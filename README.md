@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/adityagoyal200/LeetCode/tree/master/0189-rotate-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0274-h-index](https://github.com/adityagoyal200/LeetCode/tree/master/0274-h-index) |
+| [2047-find-a-peak-element-ii](https://github.com/adityagoyal200/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -61,9 +62,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/adityagoyal200/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0074-search-a-2d-matrix](https://github.com/adityagoyal200/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
+| [2047-find-a-peak-element-ii](https://github.com/adityagoyal200/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 ## Matrix
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/adityagoyal200/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
+| [2047-find-a-peak-element-ii](https://github.com/adityagoyal200/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 <!---LeetCode Topics End-->
