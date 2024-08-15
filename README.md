@@ -269,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/adityagoyal200/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/adityagoyal200/LeetCode/tree/master/0948-sort-an-array) |
+| [1955-seat-reservation-manager](https://github.com/adityagoyal200/LeetCode/tree/master/1955-seat-reservation-manager) |
 ## Merge Sort
 |  |
 | ------- |
@@ -297,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/adityagoyal200/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1955-seat-reservation-manager](https://github.com/adityagoyal200/LeetCode/tree/master/1955-seat-reservation-manager) |
 ## Binary Search Tree
 |  |
 | ------- |
