@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/adityagoyal200/LeetCode/tree/master/0189-rotate-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0274-h-index](https://github.com/adityagoyal200/LeetCode/tree/master/0274-h-index) |
+| [0347-top-k-frequent-elements](https://github.com/adityagoyal200/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/adityagoyal200/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0890-lemonade-change](https://github.com/adityagoyal200/LeetCode/tree/master/0890-lemonade-change) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/adityagoyal200/LeetCode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/adityagoyal200/LeetCode/tree/master/0169-majority-element) |
 | [0274-h-index](https://github.com/adityagoyal200/LeetCode/tree/master/0274-h-index) |
+| [0347-top-k-frequent-elements](https://github.com/adityagoyal200/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/adityagoyal200/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0726-number-of-atoms](https://github.com/adityagoyal200/LeetCode/tree/master/0726-number-of-atoms) |
@@ -103,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/adityagoyal200/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0169-majority-element](https://github.com/adityagoyal200/LeetCode/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/adityagoyal200/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/adityagoyal200/LeetCode/tree/master/0726-number-of-atoms) |
 | [1207-delete-nodes-and-return-forest](https://github.com/adityagoyal200/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -119,11 +122,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/adityagoyal200/LeetCode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/adityagoyal200/LeetCode/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0347-top-k-frequent-elements](https://github.com/adityagoyal200/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/adityagoyal200/LeetCode/tree/master/0948-sort-an-array) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/adityagoyal200/LeetCode/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/adityagoyal200/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/adityagoyal200/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Math
 |  |
@@ -267,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/adityagoyal200/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/adityagoyal200/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/adityagoyal200/LeetCode/tree/master/0948-sort-an-array) |
 | [1955-seat-reservation-manager](https://github.com/adityagoyal200/LeetCode/tree/master/1955-seat-reservation-manager) |
@@ -278,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bucket Sort
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/adityagoyal200/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/adityagoyal200/LeetCode/tree/master/0948-sort-an-array) |
 ## Radix Sort
 |  |
@@ -307,4 +314,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/adityagoyal200/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/adityagoyal200/LeetCode/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
