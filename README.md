@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/adityagoyal200/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/adityagoyal200/LeetCode/tree/master/0027-remove-element) |
 | [0040-combination-sum-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0040-combination-sum-ii) |
+| [0042-trapping-rain-water](https://github.com/adityagoyal200/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/adityagoyal200/LeetCode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/adityagoyal200/LeetCode/tree/master/0049-group-anagrams) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/adityagoyal200/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/adityagoyal200/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/adityagoyal200/LeetCode/tree/master/0027-remove-element) |
+| [0042-trapping-rain-water](https://github.com/adityagoyal200/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/adityagoyal200/LeetCode/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/adityagoyal200/LeetCode/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -155,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/adityagoyal200/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/adityagoyal200/LeetCode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/adityagoyal200/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Counting Sort
@@ -256,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/adityagoyal200/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0234-palindrome-linked-list](https://github.com/adityagoyal200/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0726-number-of-atoms](https://github.com/adityagoyal200/LeetCode/tree/master/0726-number-of-atoms) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/adityagoyal200/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -340,4 +344,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1104-coloring-a-border](https://github.com/adityagoyal200/LeetCode/tree/master/1104-coloring-a-border) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/adityagoyal200/LeetCode/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
