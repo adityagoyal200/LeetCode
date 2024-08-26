@@ -26,8 +26,7 @@ class Solution {
         List<Integer> list = new ArrayList<>();
 
         helper(root,list);
-        list.add(root.val);
-
+        
         return list;
     }
     private void helper(Node root,List<Integer> list){
@@ -37,7 +36,8 @@ class Solution {
 
         for(Node child: root.children){
             helper(child,list);
-            list.add(child.val);
         }
+
+        list.add(root.val);
     }
 }
