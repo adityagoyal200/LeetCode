@@ -1,11 +1,7 @@
-import java.util.LinkedList;
-import java.util.Queue;
-
 class Solution {
     public int countSubIslands(int[][] grid1, int[][] grid2) {
         boolean[][] islands = new boolean[grid1.length][grid1[0].length];
 
-        // Mark islands in grid1
         for (int i = 0; i < grid1.length; i++) {
             for (int j = 0; j < grid1[0].length; j++) {
                 if (grid1[i][j] == 1 && !islands[i][j]) {
@@ -14,7 +10,6 @@ class Solution {
             }
         }
 
-        // Traverse grid2 and count sub-islands
         boolean[][] visited = new boolean[grid2.length][grid2[0].length];
         int count = 0;
         for (int i = 0; i < grid2.length; i++) {
@@ -41,7 +36,7 @@ class Solution {
                 int newC = cell[1] + dir[1];
 
                 if (newR >= 0 && newR < grid.length && newC >= 0 &&
-                        newC < grid[0].length && grid[newR][newC] == 1 && !visited[newR][newC]) {
+                    newC < grid[0].length && grid[newR][newC] == 1 && !visited[newR][newC]) {
                     q.offer(new int[] { newR, newC });
                     visited[newR][newC] = true;
                 }
