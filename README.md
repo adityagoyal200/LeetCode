@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/adityagoyal200/LeetCode/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/adityagoyal200/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/adityagoyal200/LeetCode/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/adityagoyal200/LeetCode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/adityagoyal200/LeetCode/tree/master/0079-word-search) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -340,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/adityagoyal200/LeetCode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0047-permutations-ii) |
+| [0078-subsets](https://github.com/adityagoyal200/LeetCode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/adityagoyal200/LeetCode/tree/master/0079-word-search) |
 ## Design
 |  |
@@ -381,4 +383,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1325-path-with-maximum-probability](https://github.com/adityagoyal200/LeetCode/tree/master/1325-path-with-maximum-probability) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/adityagoyal200/LeetCode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
