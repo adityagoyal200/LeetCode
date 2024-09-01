@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1951-find-the-winner-of-the-circular-game](https://github.com/adityagoyal200/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2035-count-sub-islands](https://github.com/adityagoyal200/LeetCode/tree/master/2035-count-sub-islands) |
 | [2047-find-a-peak-element-ii](https://github.com/adityagoyal200/LeetCode/tree/master/2047-find-a-peak-element-ii) |
+| [2132-convert-1d-array-into-2d-array](https://github.com/adityagoyal200/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/adityagoyal200/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/adityagoyal200/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2437-maximum-number-of-groups-entering-a-competition](https://github.com/adityagoyal200/LeetCode/tree/master/2437-maximum-number-of-groups-entering-a-competition) |
@@ -193,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/adityagoyal200/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2035-count-sub-islands](https://github.com/adityagoyal200/LeetCode/tree/master/2035-count-sub-islands) |
 | [2047-find-a-peak-element-ii](https://github.com/adityagoyal200/LeetCode/tree/master/2047-find-a-peak-element-ii) |
+| [2132-convert-1d-array-into-2d-array](https://github.com/adityagoyal200/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 ## Linked List
 |  |
 | ------- |
@@ -249,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1642-water-bottles](https://github.com/adityagoyal200/LeetCode/tree/master/1642-water-bottles) |
 | [1803-average-waiting-time](https://github.com/adityagoyal200/LeetCode/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/adityagoyal200/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2132-convert-1d-array-into-2d-array](https://github.com/adityagoyal200/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/adityagoyal200/LeetCode/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2645-pass-the-pillow](https://github.com/adityagoyal200/LeetCode/tree/master/2645-pass-the-pillow) |
 | [2846-robot-collisions](https://github.com/adityagoyal200/LeetCode/tree/master/2846-robot-collisions) |
