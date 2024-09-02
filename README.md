@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1741-sort-array-by-increasing-frequency](https://github.com/adityagoyal200/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1803-average-waiting-time](https://github.com/adityagoyal200/LeetCode/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/adityagoyal200/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/adityagoyal200/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/adityagoyal200/LeetCode/tree/master/2035-count-sub-islands) |
 | [2047-find-a-peak-element-ii](https://github.com/adityagoyal200/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/adityagoyal200/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
@@ -181,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/adityagoyal200/LeetCode/tree/master/0162-find-peak-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/adityagoyal200/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2047-find-a-peak-element-ii](https://github.com/adityagoyal200/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 | [2437-maximum-number-of-groups-entering-a-competition](https://github.com/adityagoyal200/LeetCode/tree/master/2437-maximum-number-of-groups-entering-a-competition) |
 ## Matrix
@@ -251,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1642-water-bottles](https://github.com/adityagoyal200/LeetCode/tree/master/1642-water-bottles) |
 | [1803-average-waiting-time](https://github.com/adityagoyal200/LeetCode/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/adityagoyal200/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/adityagoyal200/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/adityagoyal200/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/adityagoyal200/LeetCode/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2645-pass-the-pillow](https://github.com/adityagoyal200/LeetCode/tree/master/2645-pass-the-pillow) |
@@ -395,4 +398,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/adityagoyal200/LeetCode/tree/master/0078-subsets) |
+## Prefix Sum
+|  |
+| ------- |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/adityagoyal200/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 <!---LeetCode Topics End-->
