@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/adityagoyal200/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/adityagoyal200/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0525-contiguous-array](https://github.com/adityagoyal200/LeetCode/tree/master/0525-contiguous-array) |
 | [0624-maximum-distance-in-arrays](https://github.com/adityagoyal200/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0876-hand-of-straights](https://github.com/adityagoyal200/LeetCode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/adityagoyal200/LeetCode/tree/master/0890-lemonade-change) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/adityagoyal200/LeetCode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/adityagoyal200/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0525-contiguous-array](https://github.com/adityagoyal200/LeetCode/tree/master/0525-contiguous-array) |
 | [0726-number-of-atoms](https://github.com/adityagoyal200/LeetCode/tree/master/0726-number-of-atoms) |
 | [0876-hand-of-straights](https://github.com/adityagoyal200/LeetCode/tree/master/0876-hand-of-straights) |
 | [1207-delete-nodes-and-return-forest](https://github.com/adityagoyal200/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -406,5 +408,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0525-contiguous-array](https://github.com/adityagoyal200/LeetCode/tree/master/0525-contiguous-array) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/adityagoyal200/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 <!---LeetCode Topics End-->
