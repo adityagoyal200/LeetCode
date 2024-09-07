@@ -217,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0237-delete-node-in-a-linked-list](https://github.com/adityagoyal200/LeetCode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/adityagoyal200/LeetCode/tree/master/0328-odd-even-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/adityagoyal200/LeetCode/tree/master/0908-middle-of-the-linked-list) |
+| [1484-linked-list-in-binary-tree](https://github.com/adityagoyal200/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/adityagoyal200/LeetCode/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/adityagoyal200/LeetCode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/adityagoyal200/LeetCode/tree/master/2299-merge-nodes-in-between-zeros) |
@@ -301,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0776-n-ary-tree-postorder-traversal](https://github.com/adityagoyal200/LeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/adityagoyal200/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1207-delete-nodes-and-return-forest](https://github.com/adityagoyal200/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
+| [1484-linked-list-in-binary-tree](https://github.com/adityagoyal200/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/adityagoyal200/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/adityagoyal200/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/adityagoyal200/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -310,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/adityagoyal200/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/adityagoyal200/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1207-delete-nodes-and-return-forest](https://github.com/adityagoyal200/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
+| [1484-linked-list-in-binary-tree](https://github.com/adityagoyal200/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/adityagoyal200/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/adityagoyal200/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/adityagoyal200/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -320,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0776-n-ary-tree-postorder-traversal](https://github.com/adityagoyal200/LeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1104-coloring-a-border](https://github.com/adityagoyal200/LeetCode/tree/master/1104-coloring-a-border) |
 | [1207-delete-nodes-and-return-forest](https://github.com/adityagoyal200/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
+| [1484-linked-list-in-binary-tree](https://github.com/adityagoyal200/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/adityagoyal200/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2035-count-sub-islands](https://github.com/adityagoyal200/LeetCode/tree/master/2035-count-sub-islands) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/adityagoyal200/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -384,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1104-coloring-a-border](https://github.com/adityagoyal200/LeetCode/tree/master/1104-coloring-a-border) |
+| [1484-linked-list-in-binary-tree](https://github.com/adityagoyal200/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2035-count-sub-islands](https://github.com/adityagoyal200/LeetCode/tree/master/2035-count-sub-islands) |
 ## Monotonic Stack
 |  |
