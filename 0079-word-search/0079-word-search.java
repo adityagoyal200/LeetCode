@@ -3,6 +3,10 @@ class Solution {
         int m = board.length;
         int n = board[0].length;
 
+        if(word.length() > m*n){ 
+            return false;
+        }
+
         for(int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){
                 if(board[i][j] == word.charAt(0)){
