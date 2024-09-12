@@ -7,6 +7,8 @@ class Solution {
             return false;
         }
 
+
+
         for(int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){
                 if(board[i][j] == word.charAt(0)){
@@ -19,6 +21,7 @@ class Solution {
 
         return false;
     }
+
     private boolean dfs(char[][] board, String word,int row,int col,int index){
         if(index == word.length()){
             return true;
