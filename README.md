@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-delete-nodes-and-return-forest](https://github.com/adityagoyal200/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/adityagoyal200/LeetCode/tree/master/1293-three-consecutive-odds) |
 | [1325-path-with-maximum-probability](https://github.com/adityagoyal200/LeetCode/tree/master/1325-path-with-maximum-probability) |
+| [1331-path-with-maximum-gold](https://github.com/adityagoyal200/LeetCode/tree/master/1331-path-with-maximum-gold) |
 | [1333-sort-the-jumbled-numbers](https://github.com/adityagoyal200/LeetCode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/adityagoyal200/LeetCode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1435-xor-queries-of-a-subarray](https://github.com/adityagoyal200/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
@@ -212,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/adityagoyal200/LeetCode/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [1104-coloring-a-border](https://github.com/adityagoyal200/LeetCode/tree/master/1104-coloring-a-border) |
+| [1331-path-with-maximum-gold](https://github.com/adityagoyal200/LeetCode/tree/master/1331-path-with-maximum-gold) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/adityagoyal200/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/adityagoyal200/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2035-count-sub-islands](https://github.com/adityagoyal200/LeetCode/tree/master/2035-count-sub-islands) |
@@ -388,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/adityagoyal200/LeetCode/tree/master/0216-combination-sum-iii) |
 | [1160-letter-tile-possibilities](https://github.com/adityagoyal200/LeetCode/tree/master/1160-letter-tile-possibilities) |
+| [1331-path-with-maximum-gold](https://github.com/adityagoyal200/LeetCode/tree/master/1331-path-with-maximum-gold) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/adityagoyal200/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2107-find-unique-binary-string](https://github.com/adityagoyal200/LeetCode/tree/master/2107-find-unique-binary-string) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/adityagoyal200/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
