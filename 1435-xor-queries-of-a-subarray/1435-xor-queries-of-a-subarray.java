@@ -4,26 +4,20 @@ class Solution {
             return new int[]{};
         }
 
-        int[] result = new int[queries.length];
-        int prefixXor = 0;
-        Map<Integer, Integer> map = new HashMap<>();
+        int n = arr.length;
+        int[] prefixXor = new int[n + 1];
 
-        for (int i = 0; i < arr.length; i++) {
-            prefixXor ^= arr[i];
-            map.put(i, prefixXor);
+        for (int i = 0; i < n; i++) {
+            prefixXor[i + 1] = prefixXor[i] ^ arr[i];
         }
 
-        int index = 0;
-        for (int[] query : queries) {
-            int left = query[0];
-            int right = query[1];
+        int[] result = new int[queries.length];
+        
+        for (int i = 0; i < queries.length; i++) {
+            int left = queries[i][0];
+            int right = queries[i][1];
 
-            if (left == 0) {
-                result[index] = map.get(right);
-            } else {
-                result[index] = map.get(right) ^ map.get(left - 1);
-            }
-            index++;
+            result[i] = prefixXor[right + 1] ^ prefixXor[left];
         }
 
         return result;
