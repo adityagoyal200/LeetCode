@@ -1,8 +1,7 @@
 class Solution {
+    int count = 0;
     public int totalNQueens(int n) {
-        List<List<String>> result = new ArrayList<>();
-
-        if(n <= 0 || n == 2 || n == 3){
+        if(n <= 0 || n == 2 ||n == 3){
             return 0;
         }
 
@@ -11,50 +10,39 @@ class Solution {
         }
 
         int[][] board = new int[n][n];
-        helper(board,result,0,n);
 
-        return result.size();
+        helper(board,0,n);
 
+        return count;
     }
-    private void helper(int[][] board,List<List<String>> result,int row,int n){
+    private void helper(int[][] board, int row, int n){
         //base
         if(row == n){
-            List<String> temp = new ArrayList<>();
-            for(int i = 0; i < n; i++){
-               StringBuilder sb = new StringBuilder();
-                for(int j = 0; j < n; j++){
-                    if(board[i][j] == 1){
-                        sb.append("Q");
-                    } else {
-                        sb.append(".");
-                    }
-                }
-                temp.add(sb.toString());
-            }
-
-            result.add(temp);
+            count++;
             return;
         }
 
         //logic
-        for(int col = 0; col <  n; col++){
+        for(int col = 0; col < n; col++){
             if(isSafe(board,row,col,n)){
                 board[row][col] = 1;
-                helper(board,result,row+1,n);
+                helper(board,row+1,n);
                 board[row][col] = 0;
             }
         }
     }
-    private boolean isSafe(int[][] board,int row,int col,int n){
+    private boolean isSafe(int[][] board,int row, int col, int n){
         for(int i = row; i >= 0; i--){
             if(board[i][col] == 1){
                 return false;
             }
         }
 
-        int i = row,j=col;
-        while(i >=0 && j >=0){
+        int i = row;
+        int j = col; 
 
+        //upper left
+        while(i >= 0 && j >= 0){
             if(board[i][j] == 1){
                 return false;
             }
@@ -63,10 +51,12 @@ class Solution {
             j--;
         }
 
-        i = row; j= col;
-        while(i >= 0 && j < n){
+        i = row;
+        j = col; 
 
-            if(board[i][j] == 1){
+        //upper right daignol
+        while(i >= 0 && j < n){
+            if(board[i][j] == 1 ){
                 return false;
             }
 
