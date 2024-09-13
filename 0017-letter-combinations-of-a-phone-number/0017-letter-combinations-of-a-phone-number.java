@@ -20,22 +20,21 @@ class Solution {
 
         return result;
     }
-    private void helper(String digits,int start,StringBuilder sb,List<String> list,Map<Integer,List<String>> map){
-        if(start == digits.length()){
+    private void helper(String digits,int index,StringBuilder sb,List<String> list,Map<Integer,List<String>> map){
+
+        //base
+        if(index == digits.length()){
             list.add(sb.toString());
             return;
         }
 
-        int currDigit = digits.charAt(start) - '0';
-        if(!map.containsKey(currDigit)){
-            return;
-        }
-
-        List<String> temp = map.get(currDigit);
-        for (String c : temp) {
-        	sb.append(c);
-        	helper(digits, start + 1, sb,list,map);
-        	sb.deleteCharAt(sb.length() - 1); 
-    	}
+        //logic
+        List<String> temp = map.get(digits.charAt(index)-'0');
+        for(String s: temp){
+            sb.append(s);
+            helper(digits,index+1,sb,list,map);
+            sb.deleteCharAt(sb.length()-1);
+        } 
+        
     }
 }
