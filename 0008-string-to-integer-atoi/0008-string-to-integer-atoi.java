@@ -1,37 +1,31 @@
 class Solution {
     public int myAtoi(String s) {
-        if (s == null || s.length() == 0) {
+        if (s == null || s.isEmpty()) {
             return 0;
         }
 
-        StringBuilder sb = new StringBuilder();
-        sb.append(s.trim());
+        int i = 0, n = s.length(), sign = 1, result = 0;
 
-        StringBuilder st = new StringBuilder();
-        int i = 0;
-        boolean neg = false;
-
-        if (i < sb.length() && sb.charAt(i) == '-') {
-            neg = true;
-            i++;
-        } else if (i < sb.length() && sb.charAt(i) == '+') {
+        while (i < n && s.charAt(i) == ' ') {
             i++;
         }
 
-        while (i < sb.length() && Character.isDigit(sb.charAt(i))) {
-            st.append(sb.charAt(i));
+        if (i < n && (s.charAt(i) == '-' || s.charAt(i) == '+')) {
+            sign = (s.charAt(i) == '-') ? -1 : 1;
             i++;
         }
 
-        if (st.length() == 0) {
-            return 0;
+        while (i < n && Character.isDigit(s.charAt(i))) {
+            int digit = s.charAt(i) - '0';
+
+            if (result > (Integer.MAX_VALUE - digit) / 10) {
+                return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+            }
+
+            result = result * 10 + digit;
+            i++;
         }
 
-        try {
-            int num = Integer.parseInt(st.toString());
-            return neg ? -num : num;
-        } catch (NumberFormatException e) {
-            return neg ? Integer.MIN_VALUE : Integer.MAX_VALUE;
-        }
+        return result * sign;
     }
 }
