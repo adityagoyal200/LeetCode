@@ -3,48 +3,43 @@ class Solution {
         if (board == null || board.length == 0) {
             return;
         }
-
+        
         solve(board);
     }
 
     private boolean solve(char[][] board) {
-        int n = board.length;
-        int row = -1;
-        int col = -1;
-        boolean emptyLeft = true;
-
-        // Find the first empty cell
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (board[i][j] == '.') {  
-                    row = i;
-                    col = j;
-                    emptyLeft = false;
-                    break;
-                }
-            }
-            if (!emptyLeft) {
-                break;
-            }
+        int[] emptyCell = findEmptyCell(board);
+        if (emptyCell == null) {
+            return true; // No empty cells
         }
 
-        if (emptyLeft) {
-            return true;  
-        }
+        int row = emptyCell[0];
+        int col = emptyCell[1];
 
-       
         for (char num = '1'; num <= '9'; num++) {
             if (isSafe(board, row, col, num)) {
                 board[row][col] = num;
                 if (solve(board)) {
                     return true;
                 } else {
-                    board[row][col] = '.';
+                    board[row][col] = '.'; // Backtrack
                 }
             }
         }
 
-        return false;
+        return false; // Trigger backtracking
+    }
+
+    private int[] findEmptyCell(char[][] board) {
+        int n = board.length;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (board[i][j] == '.') {
+                    return new int[]{i, j};
+                }
+            }
+        }
+        return null; // No empty cells found
     }
 
     private boolean isSafe(char[][] board, int row, int col, char num) {
@@ -74,7 +69,8 @@ class Solution {
                 }
             }
         }
-        
+
         return true;
     }
 }
+
