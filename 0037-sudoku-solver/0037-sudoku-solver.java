@@ -1,58 +1,80 @@
 class Solution {
-    // Track numbers in rows, columns, and subgrids
-    private boolean[][] rows = new boolean[9][9];
-    private boolean[][] cols = new boolean[9][9];
-    private boolean[][] subgrids = new boolean[9][9];
-
     public void solveSudoku(char[][] board) {
-        // Initialize tracking arrays based on the current state of the board
-        for (int i = 0; i < 9; i++) {
-            for (int j = 0; j < 9; j++) {
-                if (board[i][j] != '.') {
-                    int num = board[i][j] - '1';
-                    int subgridIndex = (i / 3) * 3 + j / 3;
-                    rows[i][num] = true;
-                    cols[j][num] = true;
-                    subgrids[subgridIndex][num] = true;
-                }
-            }
+        if (board == null || board.length == 0) {
+            return;
         }
+
         solve(board);
     }
 
     private boolean solve(char[][] board) {
-        for (int i = 0; i < 9; i++) {
-            for (int j = 0; j < 9; j++) {
-                if (board[i][j] == '.') {
-                    // Try placing digits 1-9
-                    for (char num = '1'; num <= '9'; num++) {
-                        int digit = num - '1';
-                        int subgridIndex = (i / 3) * 3 + j / 3;
+        int n = board.length;
+        int row = -1;
+        int col = -1;
+        boolean emptyLeft = true;
 
-                        if (!rows[i][digit] && !cols[j][digit] && !subgrids[subgridIndex][digit]) {
-                            // Place the number and mark it
-                            board[i][j] = num;
-                            rows[i][digit] = true;
-                            cols[j][digit] = true;
-                            subgrids[subgridIndex][digit] = true;
+        // Find the first empty cell
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (board[i][j] == '.') {  
+                    row = i;
+                    col = j;
+                    emptyLeft = false;
+                    break;
+                }
+            }
+            if (!emptyLeft) {
+                break;
+            }
+        }
 
-                            // Recur with this choice
-                            if (solve(board)) {
-                                return true;
-                            } else {
-                                // Backtrack
-                                board[i][j] = '.';
-                                rows[i][digit] = false;
-                                cols[j][digit] = false;
-                                subgrids[subgridIndex][digit] = false;
-                            }
-                        }
-                    }
-                    return false;  // If no number fits, trigger backtracking
+        if (emptyLeft) {
+            return true;  
+        }
+
+       
+        for (char num = '1'; num <= '9'; num++) {
+            if (isSafe(board, row, col, num)) {
+                board[row][col] = num;
+                if (solve(board)) {
+                    return true;
+                } else {
+                    board[row][col] = '.';
                 }
             }
         }
-        return true;  // Solution found
+
+        return false;
+    }
+
+    private boolean isSafe(char[][] board, int row, int col, char num) {
+        // Check row
+        for (int i = 0; i < board.length; i++) {
+            if (board[row][i] == num) {
+                return false;
+            }
+        }
+
+        // Check column
+        for (int i = 0; i < board.length; i++) {
+            if (board[i][col] == num) {
+                return false;
+            }
+        }
+
+        // Check 3x3 subgrid
+        int sqrt = (int) Math.sqrt(board.length);
+        int rowStart = row - row % sqrt;
+        int colStart = col - col % sqrt;
+
+        for (int i = rowStart; i < rowStart + sqrt; i++) {
+            for (int j = colStart; j < colStart + sqrt; j++) {
+                if (board[i][j] == num) {
+                    return false;
+                }
+            }
+        }
+        
+        return true;
     }
 }
-
