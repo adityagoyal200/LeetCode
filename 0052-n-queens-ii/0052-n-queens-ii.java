@@ -1,21 +1,21 @@
 class Solution {
-    int count = 0;
+    int count;
     public int totalNQueens(int n) {
-        if(n <= 0 || n == 2 ||n == 3){
+        if(n <= 0 || n == 2 || n == 3){
             return 0;
         }
-
+        
         if(n == 1){
             return 1;
         }
 
-        int[][] board = new int[n][n];
-
-        helper(board,0,n);
+        count = 0;
+        int[][] grid = new int[n][n];
+        solve(grid,0,n);
 
         return count;
     }
-    private void helper(int[][] board, int row, int n){
+    private void solve(int[][] grid,int row,int n){
         //base
         if(row == n){
             count++;
@@ -24,42 +24,38 @@ class Solution {
 
         //logic
         for(int col = 0; col < n; col++){
-            if(isSafe(board,row,col,n)){
-                board[row][col] = 1;
-                helper(board,row+1,n);
-                board[row][col] = 0;
+            if(isSafe(grid,row,col)){
+                grid[row][col] = 1; 
+                solve(grid,row+1,n);
+                grid[row][col] = 0;
             }
         }
     }
-    private boolean isSafe(int[][] board,int row, int col, int n){
+    private boolean isSafe(int[][] grid,int row,int col){
+        //check row
         for(int i = row; i >= 0; i--){
-            if(board[i][col] == 1){
+            if(grid[i][col] == 1){
                 return false;
             }
         }
 
         int i = row;
-        int j = col; 
+        int j = col;
 
-        //upper left
         while(i >= 0 && j >= 0){
-            if(board[i][j] == 1){
+            if(grid[i][j] == 1){
                 return false;
             }
-
             i--;
             j--;
         }
 
         i = row;
-        j = col; 
-
-        //upper right daignol
-        while(i >= 0 && j < n){
-            if(board[i][j] == 1 ){
+        j = col;
+        while(i >= 0 && j < grid.length){
+            if(grid[i][j] == 1){
                 return false;
             }
-
             i--;
             j++;
         }
