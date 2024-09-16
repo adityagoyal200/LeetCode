@@ -1,49 +1,45 @@
+import java.util.*;
+
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        if(beginWord.length() != endWord.length()){
+        if (beginWord.length() != endWord.length()) {
             return 0;
         }
 
-        Set<String> set = new HashSet<>();
-
-        for(String words: wordList){
-            set.add(words);
-        }
-
-        if(!set.contains(endWord)){
+        Set<String> wordSet = new HashSet<>(wordList);
+        if (!wordSet.contains(endWord)) {
             return 0;
         }
 
-        int length = 0;
-        Queue<String> q = new LinkedList<>();
-        q.offer(beginWord);
+        int length = 1;
+        Queue<String> queue = new LinkedList<>();
+        queue.offer(beginWord);
 
-        while(!q.isEmpty()){
-            int size = q.size();
-            length++;
-            for(int i = 0; i < size; i++){
-                String s = q.poll();
-                if(s.equals(endWord)){
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                String currentWord = queue.poll();
+                if (currentWord.equals(endWord)) {
                     return length;
                 }
-                char[] word = s.toCharArray();
-                for(int j = 0; j < word.length; j++){
-                    char index = word[j];
-                    for(char c = 'a'; c <= 'z'; c++){
-                        if(c == index)  continue;
-                        word[j] = c;
-                        String currWord = new String(word);
-                        if(set.contains(currWord)){
-                            q.offer(currWord);
-                            set.remove(currWord);
+                char[] wordArray = currentWord.toCharArray();
+                for (int j = 0; j < wordArray.length; j++) {
+                    char originalChar = wordArray[j];
+                    for (char c = 'a'; c <= 'z'; c++) {
+                        if (c == originalChar) continue;
+                        wordArray[j] = c;
+                        String nextWord = new String(wordArray);
+                        if (wordSet.contains(nextWord)) {
+                            queue.offer(nextWord);
+                            wordSet.remove(nextWord);
                         }
                     }
-
-                    word[j] = index;
+                    wordArray[j] = originalChar;
                 }
             }
+            length++;
         }
 
-        return 0;        
+        return 0;
     }
 }
