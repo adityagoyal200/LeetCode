@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/adityagoyal200/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0454-4sum-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0454-4sum-ii) |
 | [0525-contiguous-array](https://github.com/adityagoyal200/LeetCode/tree/master/0525-contiguous-array) |
+| [0539-minimum-time-difference](https://github.com/adityagoyal200/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0624-maximum-distance-in-arrays](https://github.com/adityagoyal200/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0876-hand-of-straights](https://github.com/adityagoyal200/LeetCode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/adityagoyal200/LeetCode/tree/master/0890-lemonade-change) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/adityagoyal200/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/adityagoyal200/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0539-minimum-time-difference](https://github.com/adityagoyal200/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0726-number-of-atoms](https://github.com/adityagoyal200/LeetCode/tree/master/0726-number-of-atoms) |
 | [0876-hand-of-straights](https://github.com/adityagoyal200/LeetCode/tree/master/0876-hand-of-straights) |
 | [0948-sort-an-array](https://github.com/adityagoyal200/LeetCode/tree/master/0948-sort-an-array) |
@@ -185,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/adityagoyal200/LeetCode/tree/master/0012-integer-to-roman) |
 | [0189-rotate-array](https://github.com/adityagoyal200/LeetCode/tree/master/0189-rotate-array) |
 | [0273-integer-to-english-words](https://github.com/adityagoyal200/LeetCode/tree/master/0273-integer-to-english-words) |
+| [0539-minimum-time-difference](https://github.com/adityagoyal200/LeetCode/tree/master/0539-minimum-time-difference) |
 | [1013-fibonacci-number](https://github.com/adityagoyal200/LeetCode/tree/master/1013-fibonacci-number) |
 | [1642-water-bottles](https://github.com/adityagoyal200/LeetCode/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/adityagoyal200/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -277,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/adityagoyal200/LeetCode/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/adityagoyal200/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0273-integer-to-english-words](https://github.com/adityagoyal200/LeetCode/tree/master/0273-integer-to-english-words) |
+| [0539-minimum-time-difference](https://github.com/adityagoyal200/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0726-number-of-atoms](https://github.com/adityagoyal200/LeetCode/tree/master/0726-number-of-atoms) |
 | [1160-letter-tile-possibilities](https://github.com/adityagoyal200/LeetCode/tree/master/1160-letter-tile-possibilities) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/adityagoyal200/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
