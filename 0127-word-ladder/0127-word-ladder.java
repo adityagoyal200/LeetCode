@@ -1,50 +1,49 @@
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        int bLen = beginWord.length();
-        int eLen = endWord.length();
-        int shortestPath = 0;
-       
-        Set<String> set = new HashSet<>();
-        for(String s: wordList){
-                set.add(s);
-        }
-        if(bLen != eLen || !set.contains(endWord)){
+        if(beginWord.length() != endWord.length()){
             return 0;
         }
-        Queue <String> q = new LinkedList<>();
-        q.offer(beginWord); //hot
-        q.offer(null);
+
+        Set<String> set = new HashSet<>();
+
+        for(String words: wordList){
+            set.add(words);
+        }
+
+        if(!set.contains(endWord)){
+            return 0;
+        }
+
+        int length = 0;
+        Queue<String> q = new LinkedList<>();
+        q.offer(beginWord);
+
         while(!q.isEmpty()){
-            String s = q.poll();
-            System.out.println("fgvgvghv");
-            if(s!=null && s.equals(endWord)){
-                return shortestPath+1;
-            }
-            if(s !=  null){
-                int j =0;
-                while(j < s.length()){ //s= 
-                    for(char i = 'a';i <='z' ;i++){
-                        char[] word = s.toCharArray();
-                        word[j] = i;
-                        String newWord = new String(word);//hot
-                        if(set.contains(newWord) && !s.equals(newWord)){
-                            System.out.println("rdghg");
-                            q.offer(newWord); // lot dog  
-                            set.remove(newWord);
-                        } 
+            int size = q.size();
+            length++;
+            for(int i = 0; i < size; i++){
+                String s = q.poll();
+                if(s.equals(endWord)){
+                    return length;
+                }
+                char[] word = s.toCharArray();
+                for(int j = 0; j < word.length; j++){
+                    char index = word[j];
+                    for(char c = 'a'; c <= 'z'; c++){
+                        if(c == index)  continue;
+                        word[j] = c;
+                        String currWord = new String(word);
+                        if(set.contains(currWord)){
+                            q.offer(currWord);
+                            set.remove(currWord);
+                        }
                     }
-                    
-                    j++;
-                }   
-            } else {
-                System.out.println("dshfygfyg");
-                shortestPath++;
-                if(!q.isEmpty()){
-                    q.offer(null);
+
+                    word[j] = index;
                 }
             }
         }
-        
-        return q.isEmpty() ? 0 : shortestPath;  
-    }   
+
+        return 0;        
+    }
 }
