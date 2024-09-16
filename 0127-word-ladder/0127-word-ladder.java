@@ -19,14 +19,17 @@ class Solution {
             int size = queue.size();
             for (int i = 0; i < size; i++) {
                 String currentWord = queue.poll();
+
                 if (currentWord.equals(endWord)) {
                     return length;
                 }
+
                 char[] wordArray = currentWord.toCharArray();
                 for (int j = 0; j < wordArray.length; j++) {
                     char originalChar = wordArray[j];
                     for (char c = 'a'; c <= 'z'; c++) {
-                        if (c == originalChar) continue;
+                        if (c == originalChar)
+                            continue;
                         wordArray[j] = c;
                         String nextWord = new String(wordArray);
                         if (wordSet.contains(nextWord)) {
