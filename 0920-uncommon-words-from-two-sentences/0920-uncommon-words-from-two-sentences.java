@@ -6,8 +6,8 @@ class Solution {
             return new String[]{};
         }
 
-        String[] word1 = s1.split("\\s+");
-        String[] word2 = s2.split("\\s+");
+        String[] word1 = s1.split(" ");
+        String[] word2 = s2.split(" ");
 
         Map<String, Integer> wordCount = new HashMap<>();
 
