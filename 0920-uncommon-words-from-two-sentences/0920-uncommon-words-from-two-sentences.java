@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public String[] uncommonFromSentences(String s1, String s2) {
         if(s1.length() == 0 && s2.length() == 0) {
@@ -7,34 +9,23 @@ class Solution {
         String[] word1 = s1.split("\\s+");
         String[] word2 = s2.split("\\s+");
 
-        Set<String> set = new HashSet<>();
-        Set<String> duplicates = new HashSet<>();
+        Map<String, Integer> wordCount = new HashMap<>();
 
-        // Add words from first sentence
-        for(String s: word1) {
-            if(set.contains(s)) {
-                set.remove(s);
-                duplicates.add(s);  // Track duplicates
-            } else if (!duplicates.contains(s)) {
-                set.add(s);
+        for (String word : word1) {
+            wordCount.put(word, wordCount.getOrDefault(word, 0) + 1);
+        }
+
+        for (String word : word2) {
+            wordCount.put(word, wordCount.getOrDefault(word, 0) + 1);
+        }
+
+        List<String> result = new ArrayList<>();
+        for (Map.Entry<String, Integer> entry : wordCount.entrySet()) {
+            if (entry.getValue() == 1) {
+                result.add(entry.getKey());
             }
         }
 
-        for(String s: word2) {
-            if(set.contains(s)) {
-                set.remove(s);
-                duplicates.add(s);  // Track duplicates
-            } else if (!duplicates.contains(s)) {
-                set.add(s);
-            }
-        }
-
-        String[] result = new String[set.size()];
-        int index = 0;
-        for(String s: set) {
-            result[index++] = s;
-        }
-
-        return result;
+        return result.toArray(new String[0]);
     }
 }
