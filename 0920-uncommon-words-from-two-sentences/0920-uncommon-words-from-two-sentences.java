@@ -20,9 +20,9 @@ class Solution {
         }
 
         List<String> result = new ArrayList<>();
-        for (Map.Entry<String, Integer> entry : wordCount.entrySet()) {
-            if (entry.getValue() == 1) {
-                result.add(entry.getKey());
+        for (String key: wordCount.keySet()) {
+            if (wordCount.get(key) == 1) {
+                result.add(key);
             }
         }
 
