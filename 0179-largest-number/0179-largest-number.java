@@ -9,7 +9,6 @@ class Solution {
             strNums[i] = String.valueOf(nums[i]);
         }
 
-        // Sort the array using a custom comparator
         Arrays.sort(strNums, (a, b) -> (b + a).compareTo(a + b));
 
         if (strNums[0].equals("0")) {
