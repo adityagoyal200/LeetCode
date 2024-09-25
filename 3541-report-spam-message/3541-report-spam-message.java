@@ -7,24 +7,21 @@ class Solution {
             return false;
         }
 
-        Map<String, Integer> map = new HashMap<>();
-        for (String word : message) {
-            map.put(word, map.getOrDefault(word, 0) + 1);
+        Set<String> set = new HashSet<>();
+        for(String s: bannedWords){
+            set.add(s);
         }
 
-        int cnt = 0;
-        Set<String> banned = new HashSet<>();
-
-        for (String bannedWord : bannedWords) {
-            if (map.containsKey(bannedWord) && !banned.contains(bannedWord)) {
-                cnt += map.get(bannedWord);
-                banned.add(bannedWord);
+        int cnt  = 0;
+        for(String s: message){
+            if(set.contains(s)){
+                cnt++;
             }
-            if (cnt >= 2) {
+            if(cnt >= 2){
                 return true;
             }
         }
 
-        return false; 
+        return false;
     }
 }
