@@ -7,11 +7,8 @@ class Solution {
             return false;
         }
 
-        Set<String> set = new HashSet<>();
-        for(String s: bannedWords){
-            set.add(s);
-        }
-
+        Set<String> set = new HashSet<>(Arrays.asList(bannedWords));
+        
         int cnt  = 0;
         for(String s: message){
             if(set.contains(s)){
