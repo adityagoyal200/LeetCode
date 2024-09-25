@@ -8,17 +8,14 @@ class Solution {
         }
 
         Set<String> set = new HashSet<>(Arrays.asList(bannedWords));
-        
+
         int cnt  = 0;
         for(String s: message){
             if(set.contains(s)){
                 cnt++;
             }
-            if(cnt >= 2){
-                return true;
-            }
         }
 
-        return false;
+        return (cnt >= 2);
     }
 }
