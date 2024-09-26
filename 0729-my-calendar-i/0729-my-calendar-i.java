@@ -1,27 +1,50 @@
-import java.util.*;
-
 class MyCalendar {
-    TreeMap<Integer, Integer> calendar;
 
-    public MyCalendar() {
-        calendar = new TreeMap<>();
+    class Node {
+        int start;
+        int end;
+        Node left,right;
+
+        public Node(int start,int end){
+            this.start = start;
+            this.end = end;
+        }
     }
 
+    Node root;
+
+    public MyCalendar() {
+        root = null;
+    }
+    
     public boolean book(int start, int end) {
-
-        Map.Entry<Integer, Integer> prev = calendar.floorEntry(start);
-        Map.Entry<Integer, Integer> next = calendar.ceilingEntry(start);
-
-        if (prev != null && prev.getValue() > start) {
-            return false;
+        if(root == null){
+            root = new Node(start,end);
+            return true;
         }
+        
+        Node curr = root;
 
-        if (next != null && next.getKey() < end) {
-            return false;
+        while(curr != null){
+            if(end <= curr.start){
+                if(curr.left == null){
+                    curr.left = new Node(start,end);
+                    return true;
+                }
+                curr = curr.left;
+            }
+            else if(start >= curr.end){
+                if(curr.right == null){
+                    curr.right = new Node(start,end);
+                    return true;
+                }
+                curr = curr.right;
+            }
+            else {
+                return false;
+            }
         }
-
-        calendar.put(start, end);
-        return true;
+        return false;
     }
 }
 
