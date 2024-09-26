@@ -1,18 +1,26 @@
+import java.util.*;
+
 class MyCalendar {
-    List<int[]> calendar;
+    TreeMap<Integer, Integer> calendar;
 
     public MyCalendar() {
-        calendar = new ArrayList<>();
+        calendar = new TreeMap<>();
     }
-    
+
     public boolean book(int start, int end) {
-        for (int[] booking : calendar) {
-            if (Math.max(booking[0], start) < Math.min(booking[1], end)) {
-                return false;
-            }
+
+        Map.Entry<Integer, Integer> prev = calendar.floorEntry(start);
+        Map.Entry<Integer, Integer> next = calendar.ceilingEntry(start);
+
+        if (prev != null && prev.getValue() > start) {
+            return false;
         }
 
-        calendar.add(new int[]{start, end});
+        if (next != null && next.getKey() < end) {
+            return false;
+        }
+
+        calendar.put(start, end);
         return true;
     }
 }
