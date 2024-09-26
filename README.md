@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/adityagoyal200/LeetCode/tree/master/0525-contiguous-array) |
 | [0539-minimum-time-difference](https://github.com/adityagoyal200/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0624-maximum-distance-in-arrays](https://github.com/adityagoyal200/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
+| [0729-my-calendar-i](https://github.com/adityagoyal200/LeetCode/tree/master/0729-my-calendar-i) |
 | [0876-hand-of-straights](https://github.com/adityagoyal200/LeetCode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/adityagoyal200/LeetCode/tree/master/0890-lemonade-change) |
 | [0948-sort-an-array](https://github.com/adityagoyal200/LeetCode/tree/master/0948-sort-an-array) |
@@ -221,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/adityagoyal200/LeetCode/tree/master/0162-find-peak-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0729-my-calendar-i](https://github.com/adityagoyal200/LeetCode/tree/master/0729-my-calendar-i) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/adityagoyal200/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2047-find-a-peak-element-ii](https://github.com/adityagoyal200/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 | [2437-maximum-number-of-groups-entering-a-competition](https://github.com/adityagoyal200/LeetCode/tree/master/2437-maximum-number-of-groups-entering-a-competition) |
@@ -434,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0155-min-stack](https://github.com/adityagoyal200/LeetCode/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/adityagoyal200/LeetCode/tree/master/0225-implement-stack-using-queues) |
+| [0729-my-calendar-i](https://github.com/adityagoyal200/LeetCode/tree/master/0729-my-calendar-i) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/adityagoyal200/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1955-seat-reservation-manager](https://github.com/adityagoyal200/LeetCode/tree/master/1955-seat-reservation-manager) |
 ## Binary Search Tree
@@ -515,4 +518,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/adityagoyal200/LeetCode/tree/master/0386-lexicographical-numbers) |
+## Segment Tree
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/adityagoyal200/LeetCode/tree/master/0729-my-calendar-i) |
+## Ordered Set
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/adityagoyal200/LeetCode/tree/master/0729-my-calendar-i) |
 <!---LeetCode Topics End-->
