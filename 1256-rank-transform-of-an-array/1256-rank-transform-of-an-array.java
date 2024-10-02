@@ -4,20 +4,22 @@ class Solution {
             return new int[] {};
         }
 
-        TreeMap<Integer, Integer> treeMap = new TreeMap<>();
+        int[] sortedArr = arr.clone();
+        Arrays.sort(sortedArr);
         
-        for (int num : arr) {
-            treeMap.put(num, 0);
-        }
-
+        Map<Integer, Integer> rankMap = new HashMap<>();
         int rank = 1;
-        for (Map.Entry<Integer, Integer> entry : treeMap.entrySet()) {
-            entry.setValue(rank++);
+        
+        for (int num : sortedArr) {
+            if (!rankMap.containsKey(num)) {
+                rankMap.put(num, rank);
+                rank++;
+            }
         }
 
         int[] result = new int[arr.length];
         for (int i = 0; i < arr.length; i++) {
-            result[i] = treeMap.get(arr[i]);
+            result[i] = rankMap.get(arr[i]);
         }
 
         return result;
