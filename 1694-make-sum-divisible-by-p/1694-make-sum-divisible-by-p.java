@@ -1,5 +1,9 @@
 class Solution {
     public int minSubarray(int[] nums, int p) {
+        if(nums == null || nums.length == 0){
+            return -1;
+        }
+
         long totalSum = 0;
         for (int num : nums) {
             totalSum += num;
