@@ -29,6 +29,6 @@ class Solution {
             map.put(currRem, i);
         }
 
-        return len == nums.length ? -1 : len;
+        return (len == nums.length) ? -1 : len;
     }
 }
