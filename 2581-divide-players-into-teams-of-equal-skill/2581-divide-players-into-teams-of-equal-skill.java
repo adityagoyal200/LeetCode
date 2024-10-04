@@ -1,3 +1,4 @@
+
 class Solution {
     public long dividePlayers(int[] skill) {
         if (skill == null || skill.length == 0 || skill.length % 2 != 0) {
