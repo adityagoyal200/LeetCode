@@ -26,10 +26,11 @@ class Solution {
             if (Arrays.equals(arr1, arr2)) {
                 return true;
             }
-            
+
             front++;
             back++;
         }
+        
         return false;
     }
 }
