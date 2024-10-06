@@ -10,39 +10,27 @@ class Solution {
 
         String[] sen1 = sentence1.split(" ");
         String[] sen2 = sentence2.split(" ");
-        int sen1Len = sen1.length;
-        int sen2Len = sen2.length;
+        int len1 = sen1.length;
+        int len2 = sen2.length;
+
+        if (len1 > len2) {
+            String[] temp = sen1;
+            sen1 = sen2;
+            sen2 = temp;
+            len1 = sen1.length;
+            len2 = sen2.length;
+        }
 
         int prefix = 0;
+        while (prefix < len1 && sen1[prefix].equals(sen2[prefix])) {
+            prefix++;
+        }
+
         int suffix = 0;
-
-        String[] shorter = sen1Len <= sen2Len ? sen1 : sen2;
-        String[] longer = sen1Len > sen2Len ? sen1 : sen2;
-
-        int shorterLen = shorter.length;
-        int longerLen = longer.length;
-
-
-        for (int i = 0; i < shorterLen; i++) {
-            if (shorter[i].equals(longer[i])) {
-                prefix++;
-            } else {
-                break;
-            }
+        while (suffix < len1 - prefix && sen1[len1 - 1 - suffix].equals(sen2[len2 - 1 - suffix])) {
+            suffix++;
         }
 
-
-        int j = shorterLen - 1;
-        
-        for (int i = longerLen - 1; j >= 0 && i >= longerLen - shorterLen; i--, j--) {
-            if (shorter[j].equals(longer[i])) {
-                suffix++;
-            } else {
-                break;
-            }
-        }
-
-
-        return prefix + suffix >= shorterLen;
+        return prefix + suffix >= len1;
     }
 }
