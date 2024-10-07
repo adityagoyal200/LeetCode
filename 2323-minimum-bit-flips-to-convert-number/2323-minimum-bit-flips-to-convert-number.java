@@ -10,4 +10,6 @@ public class Solution {
 
         return count;
     }
+
+    // Integer.bitCount(start ^ goal);
 }
