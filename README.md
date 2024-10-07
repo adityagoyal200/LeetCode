@@ -211,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/adityagoyal200/LeetCode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/adityagoyal200/LeetCode/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/adityagoyal200/LeetCode/tree/master/0189-rotate-array) |
+| [0231-power-of-two](https://github.com/adityagoyal200/LeetCode/tree/master/0231-power-of-two) |
 | [0273-integer-to-english-words](https://github.com/adityagoyal200/LeetCode/tree/master/0273-integer-to-english-words) |
 | [0282-expression-add-operators](https://github.com/adityagoyal200/LeetCode/tree/master/0282-expression-add-operators) |
 | [0539-minimum-time-difference](https://github.com/adityagoyal200/LeetCode/tree/master/0539-minimum-time-difference) |
@@ -350,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/adityagoyal200/LeetCode/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/adityagoyal200/LeetCode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0206-reverse-linked-list](https://github.com/adityagoyal200/LeetCode/tree/master/0206-reverse-linked-list) |
+| [0231-power-of-two](https://github.com/adityagoyal200/LeetCode/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/adityagoyal200/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0273-integer-to-english-words](https://github.com/adityagoyal200/LeetCode/tree/master/0273-integer-to-english-words) |
 | [1013-fibonacci-number](https://github.com/adityagoyal200/LeetCode/tree/master/1013-fibonacci-number) |
@@ -511,6 +513,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/adityagoyal200/LeetCode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0090-subsets-ii) |
+| [0231-power-of-two](https://github.com/adityagoyal200/LeetCode/tree/master/0231-power-of-two) |
 | [1435-xor-queries-of-a-subarray](https://github.com/adityagoyal200/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/adityagoyal200/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/adityagoyal200/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
