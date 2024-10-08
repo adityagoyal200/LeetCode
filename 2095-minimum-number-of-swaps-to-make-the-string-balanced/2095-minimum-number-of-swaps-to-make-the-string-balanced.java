@@ -3,18 +3,20 @@ class Solution {
         if(s == null || s.length() == 0){
             return 0;
         }
-        
+
         int stackSize = 0;
+        int maxClosing = 0;
 
         for (int i = 0; i < s.length(); i++) {
             char ch = s.charAt(i);
-            if (ch == '['){
+            if (ch == ']'){
                 stackSize++;
+                maxClosing = Math.max(maxClosing,stackSize);
             } else {
-                if (stackSize > 0) stackSize--;
+                stackSize--;
             }
         }
 
-        return (stackSize + 1) / 2;
+        return (maxClosing + 1) / 2;
     }
 }
