@@ -4,21 +4,21 @@ class Solution {
             return 0;
         }
 
-        int openCount = 0;
-        int closeCount = 0;
+        int open = 0;
+        int close = 0;
 
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '(') {
-                openCount++;
+                open++;
             } else {
-                if (openCount > 0) {
-                    openCount--;
+                if (open > 0) {
+                    open--;
                 } else {
-                    closeCount++;
+                    close++;
                 }
             }
         }
-        
-        return openCount + closeCount;
+
+        return open + close;
     }
 }
