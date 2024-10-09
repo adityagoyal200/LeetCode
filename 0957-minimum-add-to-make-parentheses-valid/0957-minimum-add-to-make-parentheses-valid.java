@@ -3,20 +3,21 @@ class Solution {
         if(s == null || s.length() == 0){
             return 0;
         }
-        Stack<Character> st = new Stack();
 
-        for(int i = 0; i < s.length(); i++){
-            if(st.isEmpty()){
-                st.push(s.charAt(i));
+        int openCount = 0;
+        int closeCount = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '(') {
+                openCount++;
             } else {
-                if((st.peek() == '(') && (s.charAt(i) == ')')){
-                    st.pop();
+                if (openCount > 0) {
+                    openCount--;
                 } else {
-                    st.push(s.charAt(i));
+                    closeCount++;
                 }
             }
         }
-
-        return st.size();
+        return openCount + closeCount;
     }
 }
