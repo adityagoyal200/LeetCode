@@ -1,5 +1,9 @@
 class Solution {
     public int maxWidthRamp(int[] nums) {
+        if(nums == null || nums.length == 0){
+            return 0;
+        }
+        
         int n = nums.length, top = 0, ans = 0;
         int[] stack = new int[n];
 
@@ -15,7 +19,7 @@ class Solution {
             }
             ans = Math.max(ans, i - stack[top + 1]);
         }
-        
+
         return ans;
     }
 }
