@@ -3,8 +3,10 @@ class Solution {
         if(nums == null || nums.length == 0){
             return 0;
         }
+
+        int n = nums.length;
+        int top = 0, ans = 0;
         
-        int n = nums.length, top = 0, ans = 0;
         int[] stack = new int[n];
 
         for (int i = 1; i < n; i++) {
