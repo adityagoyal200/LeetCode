@@ -4,33 +4,37 @@ class Solution {
             return -1;
         }
 
-        PriorityQueue<Integer> availChair = new PriorityQueue<>();
-        for (int i = 0; i < times.length; i++) {
+        int n = times.length;
+        TreeSet<Integer> availChair = new TreeSet<>();
+
+        for (int i = 0; i < n; i++) {
             availChair.add(i);
         }
 
-        int arrivalTarget = times[targetFriend][0];
-
         PriorityQueue<int[]> occChair = new PriorityQueue<>((a, b) -> a[0] - b[0]);
+
+        int targetArrival = times[targetFriend][0];
+
         Arrays.sort(times, (a, b) -> a[0] - b[0]);
 
-        for (int[] arrival : times) {
-            int arr = arrival[0];
-            int left = arrival[1];
+        for (int i = 0; i < times.length; i++) {
+            int arr = times[i][0];
+            int leave = times[i][1];
 
             while (!occChair.isEmpty() && occChair.peek()[0] <= arr) {
-                int newlyAvail = occChair.poll()[1];
-                availChair.offer(newlyAvail);
+                availChair.add(occChair.poll()[1]);
             }
 
-            if (arr == arrivalTarget) {
-                return availChair.peek();
+            int currAvailChair = availChair.pollFirst();
+
+            if (arr == targetArrival) {
+                return currAvailChair;
             }
 
-            int currAvailChair = availChair.poll();
-            occChair.offer(new int[]{left, currAvailChair});
+            occChair.offer(new int[]{leave, currAvailChair});
         }
 
         return -1;
     }
 }
+
