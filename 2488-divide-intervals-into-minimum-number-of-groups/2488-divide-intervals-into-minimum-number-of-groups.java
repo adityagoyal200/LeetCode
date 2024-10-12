@@ -17,16 +17,16 @@ class Solution {
         Arrays.sort(ends);
 
         int maxGroups = 0;
-        int activeGroups = 0;
+        int newGroups = 0;
         int i = 0, j = 0;
 
         while (i < n) {
             if (starts[i] <= ends[j]) {
-                activeGroups++;
-                maxGroups = Math.max(maxGroups, activeGroups);
+                newGroups++;
+                maxGroups = Math.max(maxGroups, newGroups);
                 i++;
             } else {
-                activeGroups--;
+                newGroups--;
                 j++;
             }
         }
