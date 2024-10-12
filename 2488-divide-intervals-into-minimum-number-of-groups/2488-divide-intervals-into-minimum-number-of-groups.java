@@ -1,36 +1,30 @@
 class Solution {
     public int minGroups(int[][] intervals) {
-        if (intervals == null || intervals.length == 0) {
+        if(intervals == null || intervals.length == 0){
             return 0;
         }
+        Arrays.sort(intervals,(a,b)->a[0]-b[0]);
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        int count = 0;
 
-        int n = intervals.length;
-        int[] starts = new int[n];
-        int[] ends = new int[n];
+        for(int[] interval: intervals){
+            int start = interval[0];
+            int end = interval[1];
 
-        for (int i = 0; i < n; i++) {
-            starts[i] = intervals[i][0];
-            ends[i] = intervals[i][1];
-        }
-
-        Arrays.sort(starts);
-        Arrays.sort(ends);
-
-        int maxGroups = 0;
-        int newGroups = 0;
-        int i = 0, j = 0;
-
-        while (i < n) {
-            if (starts[i] <= ends[j]) {
-                newGroups++;
-                maxGroups = Math.max(maxGroups, newGroups);
-                i++;
+            if(!pq.isEmpty()){
+                if(start > pq.peek()){
+                    pq.poll();
+                    pq.offer(end);
+                } else {
+                    count++;
+                    pq.offer(end);
+                }
             } else {
-                newGroups--;
-                j++;
+                count++;
+                pq.offer(end);
             }
         }
 
-        return maxGroups;
+        return count;
     }
 }
