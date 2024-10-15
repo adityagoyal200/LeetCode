@@ -3,23 +3,21 @@ class Solution {
         if(s == null || s.length() == 0){
             return 0;
         }
-        char[] balls = s.toCharArray();
+        
         int i = 0;
-        int j =  balls.length-1;
+        int j =  s.length()-1;
         long count = 0;
 
         while(i < j){
-            if(balls[i] == '0'){
+            if(s.charAt(i) == '0'){
                 i++;
                 continue;
             }
-            if(balls[j] == '1'){
+            if(s.charAt(j) == '1'){
                 j--;
                 continue;
             }
-            if(balls[i] == '1' && balls[j] == '0'){
-                balls[i] = '0';
-                balls[j] = '1';
+            if(s.charAt(i) == '1' && s.charAt(j) == '0'){
                 count+= (j-i);
                 i++;
                 j--;
