@@ -1,5 +1,3 @@
-import java.util.PriorityQueue;
-
 class Solution {
     public String longestDiverseString(int a, int b, int c) {
         PriorityQueue<int[]> pq = new PriorityQueue<>((x, y) -> y[1] - x[1]);
