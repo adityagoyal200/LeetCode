@@ -1,41 +1,31 @@
+import java.util.PriorityQueue;
+
 class Solution {
     public String longestDiverseString(int a, int b, int c) {
-        PriorityQueue<Pair<Character, Integer>> pq = new PriorityQueue<>(
-            (Pair<Character, Integer> p1, Pair<Character, Integer> p2) -> p2.getValue() - p1.getValue()
-        );
+        PriorityQueue<int[]> pq = new PriorityQueue<>((x, y) -> y[1] - x[1]);
 
-        if (a > 0) pq.offer(new Pair<>('a', a));
-        if (b > 0) pq.offer(new Pair<>('b', b));
-        if (c > 0) pq.offer(new Pair<>('c', c));
+        if (a > 0) pq.offer(new int[]{'a', a});
+        if (b > 0) pq.offer(new int[]{'b', b});
+        if (c > 0) pq.offer(new int[]{'c', c});
 
         StringBuilder sb = new StringBuilder();
 
         while (!pq.isEmpty()) {
-            Pair<Character, Integer> first = pq.poll();
-            char ch1 = first.getKey();
-            int cnt1 = first.getValue();
+            int[] first = pq.poll();
+            char ch1 = (char) first[0];
+            int cnt1 = first[1];
 
-            int length = sb.length();
-
-            if (length >= 2 && sb.charAt(length - 1) == ch1 && sb.charAt(length - 2) == ch1) {
+            if (sb.length() >= 2 && sb.charAt(sb.length() - 1) == ch1 && sb.charAt(sb.length() - 2) == ch1) {
                 if (pq.isEmpty()) break;
 
-                Pair<Character, Integer> second = pq.poll();
-                char ch2 = second.getKey();
-                int cnt2 = second.getValue();
+                int[] second = pq.poll();
+                sb.append((char) second[0]);
+                if (--second[1] > 0) pq.offer(second);
 
-                sb.append(ch2);
-                cnt2--;
-
-                if (cnt2 > 0) pq.offer(new Pair<>(ch2, cnt2));
-
-                pq.offer(new Pair<>(ch1, cnt1));
+                pq.offer(first);
             } else {
                 sb.append(ch1);
-                cnt1--;
-                if (cnt1 > 0){
-                    pq.offer(new Pair<>(ch1, cnt1));
-                }
+                if (--cnt1 > 0) pq.offer(new int[]{ch1, cnt1});
             }
         }
 
