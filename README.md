@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/adityagoyal200/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0454-4sum-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0454-4sum-ii) |
 | [0496-next-greater-element-i](https://github.com/adityagoyal200/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0525-contiguous-array](https://github.com/adityagoyal200/LeetCode/tree/master/0525-contiguous-array) |
 | [0539-minimum-time-difference](https://github.com/adityagoyal200/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0624-maximum-distance-in-arrays](https://github.com/adityagoyal200/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
@@ -395,6 +396,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/adityagoyal200/LeetCode/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/adityagoyal200/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/adityagoyal200/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0726-number-of-atoms](https://github.com/adityagoyal200/LeetCode/tree/master/0726-number-of-atoms) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/adityagoyal200/LeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/adityagoyal200/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -531,6 +533,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/adityagoyal200/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/adityagoyal200/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [1002-maximum-width-ramp](https://github.com/adityagoyal200/LeetCode/tree/master/1002-maximum-width-ramp) |
 ## Memoization
 |  |
