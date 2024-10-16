@@ -17,8 +17,11 @@ class Solution {
                 if (pq.isEmpty()) break;
 
                 int[] second = pq.poll();
-                sb.append((char) second[0]);
-                if (--second[1] > 0) pq.offer(second);
+                char ch2 = (char) second[0];
+                int cnt2 = second[1];
+
+                sb.append((char) ch2);
+                if (--cnt2 > 0) pq.offer(new int[]{ch2,cnt2});
 
                 pq.offer(first);
             } else {
