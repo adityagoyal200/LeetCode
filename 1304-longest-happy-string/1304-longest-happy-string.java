@@ -22,7 +22,6 @@ class Solution {
 
                 sb.append((char) ch2);
                 if (--cnt2 > 0) pq.offer(new int[]{ch2,cnt2});
-
                 pq.offer(first);
             } else {
                 sb.append(ch1);
