@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0539-minimum-time-difference](https://github.com/adityagoyal200/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0624-maximum-distance-in-arrays](https://github.com/adityagoyal200/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0729-my-calendar-i](https://github.com/adityagoyal200/LeetCode/tree/master/0729-my-calendar-i) |
+| [0735-asteroid-collision](https://github.com/adityagoyal200/LeetCode/tree/master/0735-asteroid-collision) |
 | [0876-hand-of-straights](https://github.com/adityagoyal200/LeetCode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/adityagoyal200/LeetCode/tree/master/0890-lemonade-change) |
 | [0943-sum-of-subarray-minimums](https://github.com/adityagoyal200/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
@@ -362,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/adityagoyal200/LeetCode/tree/master/0735-asteroid-collision) |
 | [1642-water-bottles](https://github.com/adityagoyal200/LeetCode/tree/master/1642-water-bottles) |
 | [1803-average-waiting-time](https://github.com/adityagoyal200/LeetCode/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/adityagoyal200/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -400,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/adityagoyal200/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0726-number-of-atoms](https://github.com/adityagoyal200/LeetCode/tree/master/0726-number-of-atoms) |
+| [0735-asteroid-collision](https://github.com/adityagoyal200/LeetCode/tree/master/0735-asteroid-collision) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/adityagoyal200/LeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0943-sum-of-subarray-minimums](https://github.com/adityagoyal200/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/adityagoyal200/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
