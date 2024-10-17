@@ -6,16 +6,18 @@ class Solution {
 
         Stack<Integer> st = new Stack<>();
         for(int ast: asteroids){
-            if(st.isEmpty() || ast > 0){
+            if(st.isEmpty() || st.peek() < 0){
                 st.push(ast);
             } else {
-                while(!st.isEmpty() && st.peek() > 0 && st.peek() < Math.abs(ast)){
-                    st.pop();
-                }
-                if(st.isEmpty() || st.peek() < 0){
+                if(ast > 0){
                     st.push(ast);
-                } else if(st.peek() == Math.abs(ast)){
-                    st.pop();
+                } else {
+                    while(!st.isEmpty() && st.peek() < Math.abs(ast)){
+                        st.pop();
+                    }
+                    if(st.peek() == Math.abs(ast)){
+                        st.pop();
+                    }
                 }
             }
         }
