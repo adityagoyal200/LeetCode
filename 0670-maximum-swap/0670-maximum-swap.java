@@ -2,17 +2,17 @@ class Solution {
     public int maximumSwap(int num) {
         char[] s = Integer.toString(num).toCharArray();
         for (int i = 0; i < s.length; i++) {
-            int ind = i;
+            int index = i;
             for (int j = s.length - 1; j > i; j--) {
-                if (s[ind] < s[j]) {
-                    ind = j;
+                if (s[index] < s[j]) {
+                    index = j;
                 }
             }
 
-            if (ind != i && s[i] < s[ind]) {
+            if (index != i && s[i] < s[index]) {
                 char temp = s[i];
-                s[i] = s[ind];
-                s[ind] = temp;
+                s[i] = s[index];
+                s[index] = temp;
                 return Integer.parseInt(new String(s));
             }
         }
