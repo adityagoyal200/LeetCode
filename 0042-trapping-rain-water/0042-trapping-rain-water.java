@@ -7,29 +7,23 @@ class Solution {
         int maxright=0;
         
         while(left<=right) {
-            
-            if(height[left]<=height[right]) {
-                
-                if(height[left]>=maxleft) {
+            if(height[left] <= height[right]) {
+                if(height[left] >= maxleft) {
                     maxleft = height[left];
-                }
-                else {
-                    
-                    totalwater+=maxleft-height[left];
+                } else {
+                    totalwater += maxleft-height[left];
                 }
                 left++;
-            }
-            else {
-                if(height[right]>=maxright) {
+            } else {
+                if(height[right] >= maxright) {
                     maxright = height[right];
-                }
-                else {
-                    
-                    totalwater+=maxright-height[right];
+                } else {  
+                    totalwater += maxright-height[right];
                 }
                 right--;
             }
         }
+        
         return totalwater;
     }
 }
