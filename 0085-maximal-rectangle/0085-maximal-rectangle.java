@@ -8,7 +8,6 @@ class Solution {
         int n = matrix[0].length;
         int[][] prefixArray = new int[m][n];
 
-        // Build prefix array
         for (int i = 0; i < n; i++) {
             int prefixSum = 0;
             for (int j = 0; j < m; j++) {
