@@ -1,5 +1,3 @@
-import java.util.Stack;
-
 class Solution {
     public int maximalRectangle(char[][] matrix) {
         if (matrix == null || matrix.length == 0) {
@@ -48,7 +46,7 @@ class Solution {
                 int area = height * width;
                 maxArea = Math.max(area, maxArea);
             }
-            
+
             st.push(colIndex);
         }
 
