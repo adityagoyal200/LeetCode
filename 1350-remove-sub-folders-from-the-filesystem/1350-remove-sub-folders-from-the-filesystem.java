@@ -17,43 +17,29 @@ class Solution {
 
     public List<String> removeSubfolders(String[] folder) {
         List<String> ans = new ArrayList<>();
-        for (String str : folder) {
-            String a[] = str.split("/");
-            Trie curr = root;
-            boolean isSubFolder = false;
-            for (String s : a) {
-                if (s.equals("")){
-                    continue;
-                }
-                if (!curr.children.containsKey(s)){
-                    curr.children.put(s, new Trie());
-                }
-                curr = curr.children.get(s);
-            }
-            curr.isEnd = true;
-        }
+        Arrays.sort(folder);
 
         for (String str : folder) {
-            String a[] = str.split("/");
+            String[] parts = str.split("/");
             Trie curr = root;
             boolean isSubFolder = false;
-            for (int i = 0; i < a.length; i++) {
-                if (a[i] == ""){
-                    continue;
-                }
 
-                if (curr.isEnd && i != str.length() - 1){
+            for (String part : parts) {
+                if (part.isEmpty()) continue;
+                if (curr.isEnd) {
                     isSubFolder = true;
+                    break;
                 }
-                curr = curr.children.get(a[i]);
+                curr.children.putIfAbsent(part, new Trie());
+                curr = curr.children.get(part);
             }
 
-            if (!isSubFolder){
+            if (!isSubFolder) {
+                curr.isEnd = true;
                 ans.add(str);
             }
         }
 
         return ans;
-
     }
 }
