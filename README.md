@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/adityagoyal200/LeetCode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1435-xor-queries-of-a-subarray](https://github.com/adityagoyal200/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/adityagoyal200/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/adityagoyal200/LeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/adityagoyal200/LeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/adityagoyal200/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/adityagoyal200/LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -628,6 +629,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/adityagoyal200/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1435-xor-queries-of-a-subarray](https://github.com/adityagoyal200/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/adityagoyal200/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/adityagoyal200/LeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1694-make-sum-divisible-by-p](https://github.com/adityagoyal200/LeetCode/tree/master/1694-make-sum-divisible-by-p) |
 | [1940-maximum-xor-for-each-query](https://github.com/adityagoyal200/LeetCode/tree/master/1940-maximum-xor-for-each-query) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/adityagoyal200/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
@@ -638,6 +640,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/adityagoyal200/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0567-permutation-in-string](https://github.com/adityagoyal200/LeetCode/tree/master/0567-permutation-in-string) |
 | [0966-binary-subarrays-with-sum](https://github.com/adityagoyal200/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/adityagoyal200/LeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Combinatorics
 |  |
 | ------- |
