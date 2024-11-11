@@ -17,7 +17,7 @@ class Solution {
                     charArray[s.charAt(left)]--;
                     left++;
                 }
-                charArray[s.charAt(left)]--;
+                charArray[c]--;
                 left++;
             }
 
