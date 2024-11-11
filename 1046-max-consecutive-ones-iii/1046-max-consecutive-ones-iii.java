@@ -14,15 +14,15 @@ class Solution {
             if(nums[right] == 0) zeros++;
             
             if(zeros > k){
-                while(left < right && nums[left] != 0){
-                    left++;
-                }
+                if(nums[left] == 0) zeros--;
                 left++;
-                zeros--;
             }
 
-            currLen = right - left +1;
-            max = Math.max(currLen , max);
+            if(zeros <= k){
+                currLen = right - left +1;
+                max = Math.max(currLen , max);
+            }
+            
             right++;
         }
 
