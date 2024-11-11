@@ -3,24 +3,23 @@ class Solution {
         if(s == null || s.length() == 0){
             return 0;
         }
-        HashSet<Character> set = new HashSet<>();
-        int i = 0;
-        int j = 0; 
-        int max = 0;
 
-        while (j < s.length()) {
-            if (!set.contains(s.charAt(j))) {
+        int maxLen = 1;
+
+        for(int i = 0; i < s.length(); i++){
+            Set<Character> set = new HashSet<>();
+            set.add(s.charAt(i));
+            int j = i +1;
+            for(; j < s.length(); j++){
+                if(set.contains(s.charAt(j))){
+                    maxLen = Math.max(maxLen,j-i);
+                    break;
+                }
                 set.add(s.charAt(j));
-                j++;
-                max = Math.max(max, set.size());
-            } else {
-                set.remove(s.charAt(i));
-                i++;
             }
+            maxLen = Math.max(maxLen,j-i);
         }
 
-        return max;
+        return maxLen;
     }
 }
-
-
