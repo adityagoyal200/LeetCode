@@ -18,15 +18,20 @@ public class Solution {
         }
 
         int[] ans = new int[queries.length];
-
         for (int j = 0; j < queries.length; j++) {
             int x = queries[j];
-            for (int i = res.size() - 1; i >= 0; i--) {
-                if (res.get(i)[0] <= x) {
-                    ans[j] = res.get(i)[1];
-                    break;
+            int left = 0, right = res.size() - 1, bestBeauty = 0;
+            while (left <= right) {
+                int mid = left + (right - left) / 2;
+                if (res.get(mid)[0] <= x) {
+                    bestBeauty = Math.max(bestBeauty,res.get(mid)[1]);
+                    left = mid + 1; 
+                } else {
+                    right = mid - 1; 
                 }
             }
+            
+            ans[j] = bestBeauty;
         }
 
         return ans;
