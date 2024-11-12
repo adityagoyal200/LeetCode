@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public int[] maximumBeauty(int[][] items, int[] queries) {
         if (items == null || items.length == 0) {
             return new int[] {};
