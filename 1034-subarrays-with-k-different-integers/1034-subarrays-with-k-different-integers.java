@@ -13,15 +13,17 @@ class Solution {
         int cnt = 0;
         
         while(right < nums.length){
-            map.put(nums[right],map.getOrDefault(nums[right],0)+1);
+            int val = nums[right];
+            map.put(val,map.getOrDefault(val,0)+1);
 
             if(map.size() > k){
                 while(map.size() > k){
-                    if(map.containsKey(nums[left])){
-                        map.put(nums[left],map.get(nums[left])-1);
+                    int value = nums[left];
+                    if(map.containsKey(value)){
+                        map.put(value,map.get(value)-1);
                     }
-                    if(map.get(nums[left]) == 0){
-                        map.remove(nums[left]);
+                    if(map.get(value) == 0){
+                        map.remove(value);
                     }
 
                     left++;
