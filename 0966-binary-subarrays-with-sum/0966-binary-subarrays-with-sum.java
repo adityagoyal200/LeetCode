@@ -1,22 +1,30 @@
 class Solution {
     public int numSubarraysWithSum(int[] nums, int goal) {
-        if(nums == null || nums.length == 0){
+        return countSub(nums,goal) - countSub(nums,goal-1);
+    }
+    private int countSub(int[] nums,int goal){
+        if(nums == null || nums.length == 0 || goal < 0){
             return 0;
         }
-        int count = 0;
-        int prefixSum = 0;
-        Map<Integer,Integer> map = new HashMap<>();
-        map.put(0,1);
-        for(int num: nums){
-            prefixSum += num;
+        int left = 0;
+        int right = 0;
+        int cnt = 0;
+        int sum = 0;
+        while(right < nums.length){
+            sum += nums[right];
 
-            if(map.containsKey(prefixSum - goal)){
-                count+= map.get(prefixSum-goal);
+            if(sum <= goal){
+                cnt+= (right-left+1);
+            } else {
+                while(sum > goal){
+                    sum -= nums[left++];
+                }
+                cnt+= (right-left+1) ;
             }
 
-            map.put(prefixSum,map.getOrDefault(prefixSum,0)+1);
+            right++;
         }
-
-        return count;
+        
+        return cnt;
     }
 }
