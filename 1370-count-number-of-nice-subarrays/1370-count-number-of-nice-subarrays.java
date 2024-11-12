@@ -1,27 +1,31 @@
 class Solution {
     public int numberOfSubarrays(int[] nums, int k) {
-        return atMostKOdds(nums, k) - atMostKOdds(nums, k - 1);
+        return countSub(nums,k) - countSub(nums,k-1);
     }
-
-    private int atMostKOdds(int[] nums, int k) {
-        int count = 0;
+    private int countSub(int[] nums,int k){
+        if(nums == null || nums.length == 0 || k < 0){
+            return 0;
+        }
         int left = 0;
-        int oddCount = 0;
+        int right = 0;
+        int cnt  = 0;
+        int odd = 0;
 
-        for (int right = 0; right < nums.length; right++) {
-            if (nums[right] % 2 == 1) {
-                oddCount++;
+        while(right < nums.length){
+            if((nums[right] & 1) == 1){
+                odd++;
             }
 
-            while (oddCount > k) {
-                if (nums[left] % 2 == 1) {
-                    oddCount--;
+            if(odd > k){
+                while(odd > k){
+                    odd -= ((nums[left++] & 1) ==1) ? 1 : 0;
                 }
-                left++;
             }
-            count += right - left + 1;
+
+            cnt += (right-left+1);
+            right++;
         }
 
-        return count;
+        return cnt;
     }
 }
