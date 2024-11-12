@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Solution {
     public int[] maximumBeauty(int[][] items, int[] queries) {
         int maxI = Integer.MAX_VALUE;
