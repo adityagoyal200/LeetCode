@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/adityagoyal200/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1002-maximum-width-ramp](https://github.com/adityagoyal200/LeetCode/tree/master/1002-maximum-width-ramp) |
 | [1034-subarrays-with-k-different-integers](https://github.com/adityagoyal200/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
+| [1043-grid-illumination](https://github.com/adityagoyal200/LeetCode/tree/master/1043-grid-illumination) |
 | [1046-max-consecutive-ones-iii](https://github.com/adityagoyal200/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1104-coloring-a-border](https://github.com/adityagoyal200/LeetCode/tree/master/1104-coloring-a-border) |
 | [1207-delete-nodes-and-return-forest](https://github.com/adityagoyal200/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0920-uncommon-words-from-two-sentences](https://github.com/adityagoyal200/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0966-binary-subarrays-with-sum](https://github.com/adityagoyal200/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/adityagoyal200/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
+| [1043-grid-illumination](https://github.com/adityagoyal200/LeetCode/tree/master/1043-grid-illumination) |
 | [1160-letter-tile-possibilities](https://github.com/adityagoyal200/LeetCode/tree/master/1160-letter-tile-possibilities) |
 | [1207-delete-nodes-and-return-forest](https://github.com/adityagoyal200/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1256-rank-transform-of-an-array](https://github.com/adityagoyal200/LeetCode/tree/master/1256-rank-transform-of-an-array) |
