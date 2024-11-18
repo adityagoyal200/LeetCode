@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/adityagoyal200/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/adityagoyal200/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/adityagoyal200/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1755-defuse-the-bomb](https://github.com/adityagoyal200/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/adityagoyal200/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1803-average-waiting-time](https://github.com/adityagoyal200/LeetCode/tree/master/1803-average-waiting-time) |
 | [1923-sentence-similarity-iii](https://github.com/adityagoyal200/LeetCode/tree/master/1923-sentence-similarity-iii) |
@@ -692,6 +693,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/adityagoyal200/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/adityagoyal200/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/adityagoyal200/LeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1755-defuse-the-bomb](https://github.com/adityagoyal200/LeetCode/tree/master/1755-defuse-the-bomb) |
 ## Combinatorics
 |  |
 | ------- |
