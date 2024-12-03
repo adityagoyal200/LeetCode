@@ -7,12 +7,12 @@ class Solution {
         int initial = 0;
 
         for(int space: spaces){
-            sb.append(s.substring(initial,space));
+            sb.append(s,initial,space);
             sb.append(" ");
             initial = space;
         }
         
-        sb.append(s.substring(initial,s.length()));
+        sb.append(s,initial,s.length());
 
         return sb.toString();
     }
