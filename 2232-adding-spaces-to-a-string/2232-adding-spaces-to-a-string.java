@@ -1,9 +1,6 @@
 class Solution {
     public String addSpaces(String s, int[] spaces) {
-        if(s == null ||s.length() == 0){
-            return "";
-        }
-        StringBuilder sb  = new StringBuilder();
+        StringBuilder sb  = new StringBuilder(s.length() + spaces.length);
         int initial = 0;
 
         for(int space: spaces){
