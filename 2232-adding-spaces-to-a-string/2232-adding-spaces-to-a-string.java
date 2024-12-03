@@ -4,7 +4,6 @@ class Solution {
             return "";
         }
         StringBuilder sb  = new StringBuilder();
-        Arrays.sort(spaces);
         int initial = 0;
 
         for(int space: spaces){
