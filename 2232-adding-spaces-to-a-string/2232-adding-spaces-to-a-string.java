@@ -12,7 +12,7 @@ class Solution {
             initial = space;
         }
         
-        sb.append(s,initial,s.length());
+        sb.append(s.substring(initial));
 
         return sb.toString();
     }
