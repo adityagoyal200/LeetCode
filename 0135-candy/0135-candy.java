@@ -7,32 +7,15 @@ class Solution {
         }
 
         int[] candies = new int[n];
-        int last = ratings[0];
-        int cdy = 1;
         candies[0] = 1;
 
         for(int i = 1; i < n; i++){
-            if(ratings[i] > last){
-                candies[i] = ++cdy;
-            } else {
-                candies[i] = 1;
-                cdy = 1;
-            }
-
-            last = ratings[i];
+            candies[i] = (ratings[i] > ratings[i-1]) ? candies[i-1]+1 : 1;
         }
 
-        cdy = 1;
-        last = ratings[n-1];
         for(int i = n-2; i >= 0; i--){
-            if(ratings[i] > last){
-                cdy++;
-                candies[i] = Math.max(cdy,candies[i]);
-            } else {
-                cdy = 1;
-                candies[i] = Math.max(cdy,candies[i]);
-            }
-            last = ratings[i];
+            candies[i] = (ratings[i] > ratings[i+1]) ? 
+            Math.max(candies[i],candies[i+1]+1) : Math.max(1,candies[i]);
         }
 
         int total = 0;
