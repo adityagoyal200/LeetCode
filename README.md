@@ -526,6 +526,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0098-validate-binary-search-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0145-binary-tree-postorder-traversal](https://github.com/adityagoyal200/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/adityagoyal200/LeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
@@ -542,6 +543,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0098-validate-binary-search-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0145-binary-tree-postorder-traversal](https://github.com/adityagoyal200/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/adityagoyal200/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -557,6 +559,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0098-validate-binary-search-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0133-clone-graph](https://github.com/adityagoyal200/LeetCode/tree/master/0133-clone-graph) |
 | [0145-binary-tree-postorder-traversal](https://github.com/adityagoyal200/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0207-course-schedule](https://github.com/adityagoyal200/LeetCode/tree/master/0207-course-schedule) |
@@ -657,6 +660,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0127-word-ladder](https://github.com/adityagoyal200/LeetCode/tree/master/0127-word-ladder) |
 | [0133-clone-graph](https://github.com/adityagoyal200/LeetCode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/adityagoyal200/LeetCode/tree/master/0207-course-schedule) |
