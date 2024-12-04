@@ -6,22 +6,31 @@ class Solution {
             return 0;
         }
 
-        int[] candies = new int[n];
-        candies[0] = 1;
+        int total  = 1;
+        int i = 1;
 
-        for(int i = 1; i < n; i++){
-            candies[i] = (ratings[i] > ratings[i-1]) ? candies[i-1]+1 : 1;
+        while(i < n){
+            if(ratings[i] ==  ratings[i-1]){
+                total++;
+                i++;
+                continue;
+            }
+            int peak = 1;
+            while(i < n && ratings[i] > ratings[i-1]){
+                total += ++peak;
+                i++;
+            }
+            int down = 1;
+            while(i < n && ratings[i] < ratings[i-1]){
+                total += down++;
+                i++;
+            }
+
+            if(peak < down){
+                total += down - peak;
+            }
         }
 
-        for(int i = n-2; i >= 0; i--){
-            candies[i] = (ratings[i] > ratings[i+1]) ? 
-            Math.max(candies[i],candies[i+1]+1) : Math.max(1,candies[i]);
-        }
-
-        int total = 0;
-        for(int cndy: candies){
-            total += cndy;
-        }
 
         return total;
     }
