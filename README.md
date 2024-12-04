@@ -413,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0071-simplify-path](https://github.com/adityagoyal200/LeetCode/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/adityagoyal200/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/adityagoyal200/LeetCode/tree/master/0079-word-search) |
+| [0093-restore-ip-addresses](https://github.com/adityagoyal200/LeetCode/tree/master/0093-restore-ip-addresses) |
 | [0127-word-ladder](https://github.com/adityagoyal200/LeetCode/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/adityagoyal200/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/adityagoyal200/LeetCode/tree/master/0151-reverse-words-in-a-string) |
@@ -623,6 +624,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/adityagoyal200/LeetCode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/adityagoyal200/LeetCode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0090-subsets-ii) |
+| [0093-restore-ip-addresses](https://github.com/adityagoyal200/LeetCode/tree/master/0093-restore-ip-addresses) |
 | [0131-palindrome-partitioning](https://github.com/adityagoyal200/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/adityagoyal200/LeetCode/tree/master/0216-combination-sum-iii) |
 | [0282-expression-add-operators](https://github.com/adityagoyal200/LeetCode/tree/master/0282-expression-add-operators) |
