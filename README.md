@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/adityagoyal200/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/adityagoyal200/LeetCode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/adityagoyal200/LeetCode/tree/master/0056-merge-intervals) |
+| [0057-insert-interval](https://github.com/adityagoyal200/LeetCode/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/adityagoyal200/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/adityagoyal200/LeetCode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/adityagoyal200/LeetCode/tree/master/0078-subsets) |
