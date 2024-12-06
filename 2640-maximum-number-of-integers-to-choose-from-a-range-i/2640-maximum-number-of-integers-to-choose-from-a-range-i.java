@@ -8,6 +8,9 @@ class Solution {
         int sum = 0;
         int cnt = 0;
         for(int i = 1; i <= n; i++){
+            if (sum + i > maxSum) {
+                break;
+            }
             if(!set.contains(i) && sum + i <= maxSum){
                 sum += i;
                 cnt++;
