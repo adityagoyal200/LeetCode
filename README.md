@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2107-find-unique-binary-string](https://github.com/adityagoyal200/LeetCode/tree/master/2107-find-unique-binary-string) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/adityagoyal200/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/adityagoyal200/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2164-two-best-non-overlapping-events](https://github.com/adityagoyal200/LeetCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/adityagoyal200/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/adityagoyal200/LeetCode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/adityagoyal200/LeetCode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
@@ -193,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/adityagoyal200/LeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/adityagoyal200/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/adityagoyal200/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
+| [2164-two-best-non-overlapping-events](https://github.com/adityagoyal200/LeetCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/adityagoyal200/LeetCode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/adityagoyal200/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2502-sort-the-people](https://github.com/adityagoyal200/LeetCode/tree/master/2502-sort-the-people) |
@@ -313,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/adityagoyal200/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0943-sum-of-subarray-minimums](https://github.com/adityagoyal200/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [1013-fibonacci-number](https://github.com/adityagoyal200/LeetCode/tree/master/1013-fibonacci-number) |
+| [2164-two-best-non-overlapping-events](https://github.com/adityagoyal200/LeetCode/tree/master/2164-two-best-non-overlapping-events) |
 ## Counting Sort
 |  |
 | ------- |
@@ -336,6 +339,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/adityagoyal200/LeetCode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/adityagoyal200/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2047-find-a-peak-element-ii](https://github.com/adityagoyal200/LeetCode/tree/master/2047-find-a-peak-element-ii) |
+| [2164-two-best-non-overlapping-events](https://github.com/adityagoyal200/LeetCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/adityagoyal200/LeetCode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/adityagoyal200/LeetCode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2437-maximum-number-of-groups-entering-a-competition](https://github.com/adityagoyal200/LeetCode/tree/master/2437-maximum-number-of-groups-entering-a-competition) |
@@ -612,6 +616,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1325-path-with-maximum-probability](https://github.com/adityagoyal200/LeetCode/tree/master/1325-path-with-maximum-probability) |
 | [1955-seat-reservation-manager](https://github.com/adityagoyal200/LeetCode/tree/master/1955-seat-reservation-manager) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/adityagoyal200/LeetCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+| [2164-two-best-non-overlapping-events](https://github.com/adityagoyal200/LeetCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/adityagoyal200/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/adityagoyal200/LeetCode/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Merge Sort
