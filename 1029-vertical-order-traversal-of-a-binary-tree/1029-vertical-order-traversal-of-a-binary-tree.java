@@ -65,7 +65,7 @@ class Solution {
             return;
         }
 
-        map.put(col, map.getOrDefault(col,new ArrayList<>()).add(new Pair(root,row,col)));
+        map.putIfAbsent(col, new ArrayList<>());
         map.get(col).add(new Pair(root, row, col));
 
         helper(root.left, row + 1, col - 1, map);
