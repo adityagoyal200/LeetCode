@@ -52,7 +52,7 @@ class Solution {
             for (Pair p : temp) {
                 tmp.add(p.node.val);
             }
-            
+
             result.add(tmp);
         }
 
@@ -65,7 +65,7 @@ class Solution {
             return;
         }
 
-        map.putIfAbsent(col, new ArrayList<>());
+        map.put(col, map.getOrDefault(col,new ArrayList<>()).add(new Pair(root,row,col)));
         map.get(col).add(new Pair(root, row, col));
 
         helper(root.left, row + 1, col - 1, map);
