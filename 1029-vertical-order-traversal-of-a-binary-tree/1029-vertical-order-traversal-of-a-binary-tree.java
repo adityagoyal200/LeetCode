@@ -13,6 +13,8 @@
  * }
  * }
  */
+import java.util.*;
+
 class Solution {
     class Pair {
         TreeNode node;
@@ -27,33 +29,27 @@ class Solution {
     }
 
     public List<List<Integer>> verticalTraversal(TreeNode root) {
-        if (root == null) {
-            return new ArrayList<>();
-        }
         List<List<Integer>> result = new ArrayList<>();
         TreeMap<Integer, List<Pair>> map = new TreeMap<>();
 
+        // Helper method call to start populating the map
         helper(root, 0, 0, map);
-        for (int key : map.keySet()) {
-            List<Pair> temp = map.get(key);
-            Collections.sort(temp, (a, b) -> {
-                if (a.col != b.col) {
-                    return a.col - b.col;
-                }
-                if (a.row != b.row) {
-                    return a.row - b.row;
-                }
-                return a.node.val - b.node.val;
-            });
-            List<Integer> tmp = new ArrayList<>();
-            for (Pair p : temp) {
-                tmp.add(p.node.val);
+
+        // Process each column in the map and sort by row, then node value
+        for (List<Pair> pairs : map.values()) {
+            // Sort pairs based on row first, then node value
+            pairs.sort(Comparator
+                    .comparingInt((Pair p) -> p.row)   // Sort by row
+                    .thenComparingInt(p -> p.node.val)); // Then by node value
+
+            List<Integer> colNodes = new ArrayList<>();
+            for (Pair p : pairs) {
+                colNodes.add(p.node.val);
             }
-            result.add(tmp);
+            result.add(colNodes);
         }
 
         return result;
-
     }
 
     private void helper(TreeNode root, int row, int col, TreeMap<Integer, List<Pair>> map) {
@@ -61,8 +57,7 @@ class Solution {
             return;
         }
 
-        map.putIfAbsent(col, new ArrayList<>());
-        map.get(col).add(new Pair(root, row, col));
+        map.computeIfAbsent(col, k -> new ArrayList<>()).add(new Pair(root, row, col));
 
         helper(root.left, row + 1, col - 1, map);
         helper(root.right, row + 1, col + 1, map);
