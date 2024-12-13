@@ -27,8 +27,8 @@ class Solution {
             score += val[0];
             int idx = val[1];
 
-            if (idx - 1 >= 0) set.add(idx - 1);
-            if (idx + 1 < nums.length) set.add(idx + 1);
+            set.add(idx - 1);
+            set.add(idx + 1);
         }
 
         return score;
