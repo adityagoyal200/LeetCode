@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
     public long findScore(int[] nums) {
         if (nums == null || nums.length == 0) return 0;
