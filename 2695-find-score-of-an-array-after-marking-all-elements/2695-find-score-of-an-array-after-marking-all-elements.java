@@ -1,29 +1,28 @@
 class Solution {
     public long findScore(int[] nums) {
-        if (nums == null || nums.length == 0) return 0;
+        int n = nums.length;
+        int[][] sortedNums = new int[n][2];
 
-        Queue<int[]> pq = new PriorityQueue<>((a, b) -> 
-            a[0] == b[0] ? Integer.compare(a[1], b[1]) : Integer.compare(a[0], b[0])
-        );
-
-        Set<Integer> set = new HashSet<>();
-        for (int i = 0; i < nums.length; i++) {
-            pq.offer(new int[]{nums[i], i});
+        for (int i = 0; i < n; i++) {
+            sortedNums[i][0] = nums[i];
+            sortedNums[i][1] = i;
         }
 
-        long score = 0;
-        while (!pq.isEmpty()) {
-            while (!pq.isEmpty() && set.contains(pq.peek()[1])) {
-                pq.poll();
-            }
-            if (pq.isEmpty()) break;
+        Arrays.sort(sortedNums, (a, b) -> a[0] == b[0] ? Integer.compare(a[1], b[1]) : Integer.compare(a[0], b[0]));
 
-            int[] val = pq.poll();
-            score += val[0];
+        Set<Integer> visited = new HashSet<>();
+        long score = 0;
+
+        for (int[] val : sortedNums) {
+            int num = val[0];
             int idx = val[1];
 
-            if (idx - 1 >= 0) set.add(idx - 1);
-            if (idx + 1 < nums.length) set.add(idx + 1);
+            if (!visited.contains(idx)) {
+                score += num;
+                visited.add(idx);
+                if (idx - 1 >= 0) visited.add(idx - 1);
+                if (idx + 1 < n) visited.add(idx + 1);
+            }
         }
 
         return score;
