@@ -1,18 +1,13 @@
 class Solution {
     public int maxChunksToSorted(int[] arr) {
-        if (arr == null || arr.length == 0) {
-            return 0;
-        }
-
-        Stack<Integer> st = new Stack<>();
+        int max = 0, chunks = 0;
         for (int i = 0; i < arr.length; i++) {
-            int max = arr[i];
-            while (!st.isEmpty() && st.peek() > arr[i]) {
-                max = Math.max(max, st.pop());
+            max = Math.max(max, arr[i]); 
+            if (max == i) {             
+                chunks++;
             }
-            st.push(max);
         }
-
-        return st.size();
+        
+        return chunks;
     }
 }
