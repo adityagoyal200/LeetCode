@@ -3,14 +3,11 @@ class Solution {
         if(nums == null || nums.length == 0){
             return 0;
         }
-        
-        int n = nums.length;
+
         int count = 0 ;
 
-        for(int i=0; i<n; i++){
-            if(nums[i]< k){
-               count++;
-            }
+        for(int num: nums){
+            count += (num < k) ? 1 : 0;
         }
 
         return count;
