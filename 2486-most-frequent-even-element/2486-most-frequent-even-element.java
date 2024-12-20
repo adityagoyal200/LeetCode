@@ -9,6 +9,8 @@ class Solution {
             if(num % 2 == 0) map.put(num,map.getOrDefault(num,0)+1);
         }
 
+        if(map.size() == 0) return -1;
+
         List<Integer>[] frequent = new List[nums.length+1];
         for(int key: map.keySet()){
             int val = map.get(key);
