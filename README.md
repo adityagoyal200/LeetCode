@@ -317,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/adityagoyal200/LeetCode/tree/master/0002-add-two-numbers) |
 | [0012-integer-to-roman](https://github.com/adityagoyal200/LeetCode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/adityagoyal200/LeetCode/tree/master/0013-roman-to-integer) |
+| [0096-unique-binary-search-trees](https://github.com/adityagoyal200/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/adityagoyal200/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/adityagoyal200/LeetCode/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/adityagoyal200/LeetCode/tree/master/0231-power-of-two) |
@@ -340,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/adityagoyal200/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/adityagoyal200/LeetCode/tree/master/0055-jump-game) |
 | [0085-maximal-rectangle](https://github.com/adityagoyal200/LeetCode/tree/master/0085-maximal-rectangle) |
+| [0096-unique-binary-search-trees](https://github.com/adityagoyal200/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/adityagoyal200/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/adityagoyal200/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/adityagoyal200/LeetCode/tree/master/0198-house-robber) |
@@ -592,6 +594,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/adityagoyal200/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0101-symmetric-tree) |
@@ -619,6 +622,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/adityagoyal200/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0101-symmetric-tree) |
@@ -747,6 +751,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/adityagoyal200/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0784-insert-into-a-binary-search-tree) |
