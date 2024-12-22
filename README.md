@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/adityagoyal200/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/adityagoyal200/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0135-candy](https://github.com/adityagoyal200/LeetCode/tree/master/0135-candy) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/adityagoyal200/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0162-find-peak-element](https://github.com/adityagoyal200/LeetCode/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/adityagoyal200/LeetCode/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/adityagoyal200/LeetCode/tree/master/0179-largest-number) |
@@ -316,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/adityagoyal200/LeetCode/tree/master/0002-add-two-numbers) |
 | [0012-integer-to-roman](https://github.com/adityagoyal200/LeetCode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/adityagoyal200/LeetCode/tree/master/0013-roman-to-integer) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/adityagoyal200/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/adityagoyal200/LeetCode/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/adityagoyal200/LeetCode/tree/master/0231-power-of-two) |
 | [0273-integer-to-english-words](https://github.com/adityagoyal200/LeetCode/tree/master/0273-integer-to-english-words) |
@@ -556,6 +558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/adityagoyal200/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/adityagoyal200/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0145-binary-tree-postorder-traversal](https://github.com/adityagoyal200/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/adityagoyal200/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/adityagoyal200/LeetCode/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/adityagoyal200/LeetCode/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/adityagoyal200/LeetCode/tree/master/0234-palindrome-linked-list) |
