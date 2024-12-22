@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/adityagoyal200/LeetCode/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/adityagoyal200/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/adityagoyal200/LeetCode/tree/master/0216-combination-sum-iii) |
+| [0238-product-of-array-except-self](https://github.com/adityagoyal200/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/adityagoyal200/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0274-h-index](https://github.com/adityagoyal200/LeetCode/tree/master/0274-h-index) |
@@ -828,6 +829,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/adityagoyal200/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0525-contiguous-array](https://github.com/adityagoyal200/LeetCode/tree/master/0525-contiguous-array) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/adityagoyal200/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/adityagoyal200/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
