@@ -1,35 +1,30 @@
 class Solution {
     public int largestRectangleArea(int[] heights) {
-        if(heights == null || heights.length == 0){
+        if (heights == null || heights.length == 0) {
             return 0;
         }
-        int[] nse = findNse(heights);
         Stack<Integer> st = new Stack<>();
         int largest = Integer.MIN_VALUE;
 
-        for(int i = 0; i < heights.length; i++){
-            while(!st.isEmpty() && heights[st.peek()] >= heights[i]) st.pop();
-            int pse = (st.isEmpty()) ? -1 : st.peek();
+        for (int i = 0; i < heights.length; i++) {
+            while (!st.isEmpty() && heights[st.peek()] > heights[i]) {
+                int index = st.pop(); // this index nse for h[index] and pse would be peek
+                int nse = i;
+                int pse = (st.isEmpty()) ? -1 : st.peek();
+                int currArea = heights[index] * (nse - pse - 1);
+                largest = Math.max(currArea, largest);
+            }
             st.push(i);
-            int currArea = heights[i] * (nse[i] -pse-1);
-            largest = Math.max(currArea,largest);
+        }
+
+        while (!st.isEmpty()) {
+            int index = st.pop();
+            int nse = heights.length;
+            int pse = (st.isEmpty()) ? -1 : st.peek();
+            int area = heights[index] * (nse - pse - 1);
+            largest = Math.max(area, largest);
         }
 
         return largest;
-    }
-    private int[] findNse(int[] arr){
-        Stack<Integer> st = new Stack<>();
-        int[] result = new int[arr.length];
-
-        for(int i = arr.length-1; i>=0; i--){
-            while(!st.isEmpty() && arr[st.peek()] >= arr[i]){
-                st.pop();
-            }
-
-            result[i] = (st.isEmpty()) ? arr.length : st.peek();
-            st.push(i);
-        }
-
-        return result;
     }
 }
