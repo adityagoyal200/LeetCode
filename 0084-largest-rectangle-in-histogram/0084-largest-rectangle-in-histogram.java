@@ -17,6 +17,20 @@ class Solution {
             st.push(i);
         }
 
+        /* i = 0 , loops does not run, st = [(2,0)] (val,index)
+            i= 1 , h[0] >= h[1] ? yes so index = pop() 0 and current i= 1 
+            is nse for that index and as we are storing pse in stack so peek() would be pse for index 
+            calculate area for h[index] => h[index] * (nse-pse-1);
+            max of largest
+            let loop run because nse would be same for next index to if it exits
+            if loop exits
+            then add that index;
+         */
+        /*
+        there will still be some indexes because for them 
+        nse does not exist so nse will be? the length and pse same 
+        calculate for same till empty stack
+         */
         while (!st.isEmpty()) {
             int index = st.pop();
             int nse = heights.length;
