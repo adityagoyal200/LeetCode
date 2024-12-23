@@ -3,29 +3,45 @@ class Solution {
         if(heights == null || heights.length == 0){
             return 0;
         }
+        int[] pse = findPse(heights);
+        int[] nse = findNse(heights);
+        int largest = Integer.MIN_VALUE;
 
-        int largestRect = 0;
-        //we compute pse while traversing and for nse when we pop for an element the element we pop for that index is nse for that popped out element
-        Stack<Integer> st = new Stack<>();
         for(int i = 0; i < heights.length; i++){
-            while(!st.isEmpty() && heights[st.peek()] > heights[i]){
-                int index = st.pop(); //  current index is nse for height[index]; and pse would be peek 
-                int nse = i;
-                int pse = (st.isEmpty()) ? -1 : st.peek();
-                int area = heights[index] * (nse-pse-1);
-                largestRect = Math.max(area,largestRect);
+            int currArea = heights[i] * (nse[i] -pse[i]-1);
+            largest = Math.max(currArea,largest);
+        }
+
+        return largest;
+    }
+    private int[] findPse(int[] arr){
+        Stack<Integer> st = new Stack<>();
+        int[] result = new int[arr.length];
+
+        for(int i = 0; i < arr.length; i++){
+            while(!st.isEmpty() && arr[st.peek()] >= arr[i]){
+                st.pop();
             }
+
+            result[i] = (st.isEmpty()) ? -1 : st.peek();
             st.push(i);
         }
 
-        while(!st.isEmpty()){
-            int index = st.pop();
-            int nse = heights.length;
-            int pse = (st.isEmpty()) ? -1 : st.peek();
-            int area = heights[index] * (nse-pse-1);
-            largestRect = Math.max(area,largestRect);
+        return result;
+    }
+    private int[] findNse(int[] arr){
+        Stack<Integer> st = new Stack<>();
+        int[] result = new int[arr.length];
+
+        for(int i = arr.length-1; i>=0; i--){
+            while(!st.isEmpty() && arr[st.peek()] >= arr[i]){
+                st.pop();
+            }
+
+            result[i] = (st.isEmpty()) ? arr.length : st.peek();
+            st.push(i);
         }
 
-        return largestRect;       
+        return result;
     }
 }
