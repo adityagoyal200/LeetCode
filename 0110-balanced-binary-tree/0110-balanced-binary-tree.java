@@ -15,11 +15,7 @@
  */
 class Solution {
     public boolean isBalanced(TreeNode root) {
-        if(root == null){
-            return true;
-        }
-
-        return (helper(root) != -1);
+        return helper(root) != -1;
     }
     private int helper(TreeNode root){
         if(root == null){
