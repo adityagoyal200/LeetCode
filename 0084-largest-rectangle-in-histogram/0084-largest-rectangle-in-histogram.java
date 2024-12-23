@@ -3,31 +3,19 @@ class Solution {
         if(heights == null || heights.length == 0){
             return 0;
         }
-        int[] pse = findPse(heights);
         int[] nse = findNse(heights);
+        Stack<Integer> st = new Stack<>();
         int largest = Integer.MIN_VALUE;
 
         for(int i = 0; i < heights.length; i++){
-            int currArea = heights[i] * (nse[i] -pse[i]-1);
+            while(!st.isEmpty() && heights[st.peek()] >= heights[i]) st.pop();
+            int pse = (st.isEmpty()) ? -1 : st.peek();
+            st.push(i);
+            int currArea = heights[i] * (nse[i] -pse-1);
             largest = Math.max(currArea,largest);
         }
 
         return largest;
-    }
-    private int[] findPse(int[] arr){
-        Stack<Integer> st = new Stack<>();
-        int[] result = new int[arr.length];
-
-        for(int i = 0; i < arr.length; i++){
-            while(!st.isEmpty() && arr[st.peek()] >= arr[i]){
-                st.pop();
-            }
-
-            result[i] = (st.isEmpty()) ? -1 : st.peek();
-            st.push(i);
-        }
-
-        return result;
     }
     private int[] findNse(int[] arr){
         Stack<Integer> st = new Stack<>();
