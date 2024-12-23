@@ -7,7 +7,7 @@ class Solution {
         int largest = Integer.MIN_VALUE;
 
         for (int i = 0; i < heights.length; i++) {
-            while (!st.isEmpty() && heights[st.peek()] > heights[i]) {
+            while (!st.isEmpty() && heights[st.peek()] >= heights[i]) {
                 int index = st.pop(); // this index nse for h[index] and pse would be peek
                 int nse = i;
                 int pse = (st.isEmpty()) ? -1 : st.peek();
