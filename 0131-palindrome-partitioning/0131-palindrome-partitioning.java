@@ -1,33 +1,29 @@
 class Solution {
     List<List<String>> result;
     public List<List<String>> partition(String s) {
-        result = new ArrayList<>();
         if(s == null || s.length() == 0){
-            return result;
+            return new ArrayList<>();
         }
 
-        backtrack(s,0,new ArrayList<>());
-        
+        result = new ArrayList<>();
+        helper(s,0,new ArrayList<>());
+
         return result;
     }
-    private void backtrack(String s, int start, List<String> temp){
-        //base
+    private void helper(String s,int start, List<String> list){
         if(start == s.length()){
-            result.add(new ArrayList<>(temp));
+            result.add(new ArrayList<>(list));
             return;
         }
 
-        //logic
         for(int i = start; i < s.length(); i++){
             String sub = s.substring(start,i+1);
             if(isPalindrone(sub)){
-                temp.add(sub);
-                backtrack(s,i+1,temp);
-                temp.remove(temp.size()-1);
-                
+                list.add(sub);
+                helper(s,i+1,list);
+                list.remove(list.size()-1);
             }
         }
-
     }
     private boolean isPalindrone(String s){
         if(s.length() == 1){
