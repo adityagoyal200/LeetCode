@@ -35,7 +35,7 @@ class Solution {
     public void helper(char[][] board, int row, int col) {
         // base
         if (row < 0 || row >= board.length || col < 0 ||
-                col >= board[0].length || board[row][col] == 'X') {
+                col >= board[0].length || board[row][col] == 'X' || board[row][col] != 'O') {
             return;
         }
 
