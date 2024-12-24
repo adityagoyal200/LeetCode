@@ -11,9 +11,9 @@ class Solution {
         }
         
         int right = 1; //
-        for(int i = nums.length-1; i>=0;i--){ //[1 1 2 6] 1
+        for(int i = nums.length-2; i>=0;i--){ //[1 1 2 6] 1
+            right *= nums[i+1]; 
             result[i] *= right;
-            right *= nums[i]; 
         }
 
         return result;
