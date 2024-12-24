@@ -7,9 +7,11 @@ class Solution {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         
         for(int num: nums){
-            pq.offer(num);
-            if(pq.size() > k){
+            if(pq.size() < k){
+                pq.offer(num);
+            } else if(num > pq.peek()){
                 pq.poll();
+                pq.offer(num);
             }
         }
 
