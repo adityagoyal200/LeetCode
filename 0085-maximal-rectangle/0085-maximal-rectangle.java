@@ -4,60 +4,50 @@ class Solution {
             return 0;
         }
 
-        int m = matrix.length;
-        int n = matrix[0].length;
-        int[][] prefixArray = new int[m][n];
-
-        for (int i = 0; i < n; i++) {
-            int prefixSum = 0;
-            for (int j = 0; j < m; j++) {
-                if (matrix[j][i] == '0') {
-                    prefixSum = 0;
-                    prefixArray[j][i] = prefixSum;
+        int[][] prefixArr = new int[matrix.length][matrix[0].length];
+        for (int i = 0; i < matrix[0].length; i++) {
+            int sum = 0;
+            for (int j = 0; j < matrix.length; j++) {
+                if (matrix[j][i] == '1') {
+                    sum++;
+                    prefixArr[j][i] = sum;
                 } else {
-                    prefixSum += 1;  
-                    prefixArray[j][i] = prefixSum;
+                    sum = 0;
+                    prefixArr[j][i] = sum;
                 }
             }
         }
 
-        int maxRect = 0;
+        int largest = 0;
 
-        for (int i = 0; i < m; i++) {
-            int area = findArea(prefixArray, i);
-            maxRect = Math.max(area, maxRect);
+        for (int i = 0; i < matrix.length; i++) {
+            int area = findArea(prefixArr, i);
+            largest = Math.max(area, largest);
         }
 
-        return maxRect;
+        return largest;
     }
 
-    private int findArea(int[][] matrix, int row) {
+    private int findArea(int[][] arr, int row) {
         Stack<Integer> st = new Stack<>();
-        int maxArea = 0;
-        int col = matrix[0].length;
+        int largest = 0;
+        int n = arr[0].length;
 
-        for (int colIndex = 0; colIndex < col; colIndex++) {
-            while (!st.isEmpty() && matrix[row][st.peek()] > matrix[row][colIndex]) {
-                int index = st.pop();
-                int pse = (st.isEmpty()) ? -1 : st.peek();
-                int width = colIndex - pse - 1;
-                int height = matrix[row][index];
-                int area = height * width;
-                maxArea = Math.max(area, maxArea);
+        for (int i = 0; i < n; i++) {
+            while (!st.isEmpty() && arr[row][st.peek()] >= arr[row][i]) {
+                int height = arr[row][st.pop()];
+                int width = st.isEmpty() ? i : i - st.peek() - 1;
+                largest = Math.max(largest, height * width);
             }
-
-            st.push(colIndex);
+            st.push(i);
         }
 
         while (!st.isEmpty()) {
-            int index = st.pop();
-            int pse = (st.isEmpty()) ? -1 : st.peek();
-            int width = col - pse - 1;
-            int height = matrix[row][index];
-            int area = height * width;
-            maxArea = Math.max(area, maxArea);
+            int height = arr[row][st.pop()];
+            int width = st.isEmpty() ? n : n - st.peek() - 1;
+            largest = Math.max(largest, height * width);
         }
 
-        return maxArea;
+        return largest;
     }
 }
