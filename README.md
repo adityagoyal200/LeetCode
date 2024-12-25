@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1043-grid-illumination](https://github.com/adityagoyal200/LeetCode/tree/master/1043-grid-illumination) |
 | [1046-max-consecutive-ones-iii](https://github.com/adityagoyal200/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1072-next-greater-node-in-linked-list](https://github.com/adityagoyal200/LeetCode/tree/master/1072-next-greater-node-in-linked-list) |
+| [1073-number-of-enclaves](https://github.com/adityagoyal200/LeetCode/tree/master/1073-number-of-enclaves) |
 | [1104-coloring-a-border](https://github.com/adityagoyal200/LeetCode/tree/master/1104-coloring-a-border) |
 | [1127-last-stone-weight](https://github.com/adityagoyal200/LeetCode/tree/master/1127-last-stone-weight) |
 | [1207-delete-nodes-and-return-forest](https://github.com/adityagoyal200/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -417,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/adityagoyal200/LeetCode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/adityagoyal200/LeetCode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/adityagoyal200/LeetCode/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/adityagoyal200/LeetCode/tree/master/1073-number-of-enclaves) |
 | [1104-coloring-a-border](https://github.com/adityagoyal200/LeetCode/tree/master/1104-coloring-a-border) |
 | [1331-path-with-maximum-gold](https://github.com/adityagoyal200/LeetCode/tree/master/1331-path-with-maximum-gold) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/adityagoyal200/LeetCode/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
@@ -703,6 +705,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0776-n-ary-tree-postorder-traversal](https://github.com/adityagoyal200/LeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0988-flip-equivalent-binary-trees](https://github.com/adityagoyal200/LeetCode/tree/master/0988-flip-equivalent-binary-trees) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/adityagoyal200/LeetCode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1073-number-of-enclaves](https://github.com/adityagoyal200/LeetCode/tree/master/1073-number-of-enclaves) |
 | [1104-coloring-a-border](https://github.com/adityagoyal200/LeetCode/tree/master/1104-coloring-a-border) |
 | [1207-delete-nodes-and-return-forest](https://github.com/adityagoyal200/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/adityagoyal200/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
@@ -756,6 +759,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/adityagoyal200/LeetCode/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/adityagoyal200/LeetCode/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/adityagoyal200/LeetCode/tree/master/0695-max-area-of-island) |
+| [1073-number-of-enclaves](https://github.com/adityagoyal200/LeetCode/tree/master/1073-number-of-enclaves) |
 | [2035-count-sub-islands](https://github.com/adityagoyal200/LeetCode/tree/master/2035-count-sub-islands) |
 ## Backtracking
 |  |
@@ -828,6 +832,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/adityagoyal200/LeetCode/tree/master/0733-flood-fill) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/adityagoyal200/LeetCode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/adityagoyal200/LeetCode/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/adityagoyal200/LeetCode/tree/master/1073-number-of-enclaves) |
 | [1104-coloring-a-border](https://github.com/adityagoyal200/LeetCode/tree/master/1104-coloring-a-border) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/adityagoyal200/LeetCode/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1484-linked-list-in-binary-tree](https://github.com/adityagoyal200/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
