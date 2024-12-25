@@ -15,7 +15,6 @@ class Solution {
 
         for(int num: nums) {
             long required = totalSum - num;
-
             if (required % 2 != 0) continue;
             long value = required/2;
             map.put(num,map.get(num)-1);
