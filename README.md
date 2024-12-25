@@ -158,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/adityagoyal200/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3541-report-spam-message](https://github.com/adityagoyal200/LeetCode/tree/master/3541-report-spam-message) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/adityagoyal200/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3594-identify-the-largest-outlier-in-an-array](https://github.com/adityagoyal200/LeetCode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 ## Two Pointers
 |  |
 | ------- |
@@ -305,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/adityagoyal200/LeetCode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/adityagoyal200/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3541-report-spam-message](https://github.com/adityagoyal200/LeetCode/tree/master/3541-report-spam-message) |
+| [3594-identify-the-largest-outlier-in-an-array](https://github.com/adityagoyal200/LeetCode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -331,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2163-kth-distinct-string-in-an-array](https://github.com/adityagoyal200/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2300-construct-string-with-repeat-limit](https://github.com/adityagoyal200/LeetCode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2486-most-frequent-even-element](https://github.com/adityagoyal200/LeetCode/tree/master/2486-most-frequent-even-element) |
+| [3594-identify-the-largest-outlier-in-an-array](https://github.com/adityagoyal200/LeetCode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 ## Math
 |  |
 | ------- |
@@ -938,6 +941,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/adityagoyal200/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/adityagoyal200/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [3594-identify-the-largest-outlier-in-an-array](https://github.com/adityagoyal200/LeetCode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 ## Brainteaser
 |  |
 | ------- |
