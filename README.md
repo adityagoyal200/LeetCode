@@ -692,6 +692,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0386-lexicographical-numbers](https://github.com/adityagoyal200/LeetCode/tree/master/0386-lexicographical-numbers) |
 | [0417-pacific-atlantic-water-flow](https://github.com/adityagoyal200/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0547-number-of-provinces](https://github.com/adityagoyal200/LeetCode/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/adityagoyal200/LeetCode/tree/master/0695-max-area-of-island) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/adityagoyal200/LeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0988-flip-equivalent-binary-trees](https://github.com/adityagoyal200/LeetCode/tree/master/0988-flip-equivalent-binary-trees) |
@@ -747,6 +748,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/adityagoyal200/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/adityagoyal200/LeetCode/tree/master/0130-surrounded-regions) |
+| [0547-number-of-provinces](https://github.com/adityagoyal200/LeetCode/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/adityagoyal200/LeetCode/tree/master/0695-max-area-of-island) |
 | [2035-count-sub-islands](https://github.com/adityagoyal200/LeetCode/tree/master/2035-count-sub-islands) |
 ## Backtracking
@@ -814,6 +816,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/adityagoyal200/LeetCode/tree/master/0207-course-schedule) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0417-pacific-atlantic-water-flow](https://github.com/adityagoyal200/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0547-number-of-provinces](https://github.com/adityagoyal200/LeetCode/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/adityagoyal200/LeetCode/tree/master/0695-max-area-of-island) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/adityagoyal200/LeetCode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/adityagoyal200/LeetCode/tree/master/1036-rotting-oranges) |
@@ -855,6 +858,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0133-clone-graph](https://github.com/adityagoyal200/LeetCode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/adityagoyal200/LeetCode/tree/master/0207-course-schedule) |
+| [0547-number-of-provinces](https://github.com/adityagoyal200/LeetCode/tree/master/0547-number-of-provinces) |
 | [1325-path-with-maximum-probability](https://github.com/adityagoyal200/LeetCode/tree/master/1325-path-with-maximum-probability) |
 ## Shortest Path
 |  |
