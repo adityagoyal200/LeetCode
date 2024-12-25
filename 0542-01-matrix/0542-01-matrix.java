@@ -47,6 +47,6 @@ class Solution {
     }
 
     private boolean isValid(int row, int col, int[][] mat, int m, int n) {
-        return row >= 0 && row < m && col >= 0 && col < n && mat[row][col] == -1;
+        return (row >= 0 && row < m && col >= 0 && col < n && mat[row][col] == -1);
     }
 }
