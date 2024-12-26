@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/adityagoyal200/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0454-4sum-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0454-4sum-ii) |
 | [0455-assign-cookies](https://github.com/adityagoyal200/LeetCode/tree/master/0455-assign-cookies) |
+| [0494-target-sum](https://github.com/adityagoyal200/LeetCode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/adityagoyal200/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0525-contiguous-array](https://github.com/adityagoyal200/LeetCode/tree/master/0525-contiguous-array) |
@@ -375,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/adityagoyal200/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/adityagoyal200/LeetCode/tree/master/0198-house-robber) |
 | [0435-non-overlapping-intervals](https://github.com/adityagoyal200/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0494-target-sum](https://github.com/adityagoyal200/LeetCode/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/adityagoyal200/LeetCode/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/adityagoyal200/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/adityagoyal200/LeetCode/tree/master/0902-minimum-number-of-refueling-stops) |
@@ -794,6 +796,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/adityagoyal200/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/adityagoyal200/LeetCode/tree/master/0216-combination-sum-iii) |
 | [0282-expression-add-operators](https://github.com/adityagoyal200/LeetCode/tree/master/0282-expression-add-operators) |
+| [0494-target-sum](https://github.com/adityagoyal200/LeetCode/tree/master/0494-target-sum) |
 | [1160-letter-tile-possibilities](https://github.com/adityagoyal200/LeetCode/tree/master/1160-letter-tile-possibilities) |
 | [1331-path-with-maximum-gold](https://github.com/adityagoyal200/LeetCode/tree/master/1331-path-with-maximum-gold) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/adityagoyal200/LeetCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
