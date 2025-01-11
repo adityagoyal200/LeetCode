@@ -2,19 +2,17 @@ class Solution {
     public boolean canConstruct(String s, int k) {
         if (s.length() < k) return false;
 
-        char[] chars = s.toCharArray();
-        Arrays.sort(chars);
-        int oddCount = 0;
+        int[] freq = new int[26];
+        for (char c : s.toCharArray()) {
+            freq[c - 'a']++;
+        }
 
-        for (int i = 0; i < chars.length; ) {
-            int count = 0;
-            while (i < chars.length && chars[i] == chars[i - count]) {
-                count++;
-                i++;
-            }
+        int oddCount = 0;
+        for (int count : freq) {
             if (count % 2 != 0) oddCount++;
         }
 
         return oddCount <= k;
     }
 }
+
