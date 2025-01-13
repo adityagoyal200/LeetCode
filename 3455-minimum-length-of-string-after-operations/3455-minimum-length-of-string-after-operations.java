@@ -1,16 +1,16 @@
 class Solution {
     public int minimumLength(String s) {
-        if (s == null || s.length() == 0) return 0;
-        
-        HashMap<Character, Integer> map = new HashMap<>();
+        if (s == null || s.isEmpty()) return 0;
+
+        int[] freq = new int[26]; 
         for (char c : s.toCharArray()) {
-            map.put(c, map.getOrDefault(c, 0) + 1);
+            freq[c - 'a']++;
         }
 
         int len = s.length();
-        for (int count : map.values()) {
+        for (int count : freq) {
             if (count >= 3) {
-                len -= (count % 2 == 1) ? count-1 : count-2;
+                len -= (count % 2 == 1) ? count - 1 : count - 2;
             }
         }
 
