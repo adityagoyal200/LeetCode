@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/adityagoyal200/LeetCode/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/adityagoyal200/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/adityagoyal200/LeetCode/tree/master/0216-combination-sum-iii) |
+| [0217-contains-duplicate](https://github.com/adityagoyal200/LeetCode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/adityagoyal200/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/adityagoyal200/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/adityagoyal200/LeetCode/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/adityagoyal200/LeetCode/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/adityagoyal200/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/adityagoyal200/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/adityagoyal200/LeetCode/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/adityagoyal200/LeetCode/tree/master/0274-h-index) |
 | [0347-top-k-frequent-elements](https://github.com/adityagoyal200/LeetCode/tree/master/0347-top-k-frequent-elements) |
@@ -285,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/adityagoyal200/LeetCode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/adityagoyal200/LeetCode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/adityagoyal200/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/adityagoyal200/LeetCode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/adityagoyal200/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adityagoyal200/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
