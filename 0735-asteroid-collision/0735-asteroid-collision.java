@@ -1,12 +1,8 @@
 class Solution {
     public int[] asteroidCollision(int[] asteroids) {
-        if(asteroids == null || asteroids.length == 0){
-            return new int[]{};
-        }
-
         Stack<Integer> st = new Stack<>();
         for(int ast: asteroids){
-            if(st.isEmpty() ||ast > 0){
+            if(st.isEmpty() || ast > 0){
                 st.push(ast);
             } else {
                 if(ast > 0){
@@ -30,5 +26,6 @@ class Solution {
         }
         
         return result;
+
     }
 }
