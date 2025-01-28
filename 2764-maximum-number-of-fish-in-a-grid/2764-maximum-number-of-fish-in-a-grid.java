@@ -25,7 +25,7 @@ class Solution {
         }
 
         visited[row][col] = true;
-        fish = fish + grid[row][col] + dfs(grid, row + 1, col, visited, fish) + dfs(grid, row - 1, col, visited, fish)
+        fish += grid[row][col] + dfs(grid, row + 1, col, visited, fish) + dfs(grid, row - 1, col, visited, fish)
                 + dfs(grid, row, col + 1, visited, fish) + dfs(grid, row, col - 1, visited, fish);
 
         return fish;
