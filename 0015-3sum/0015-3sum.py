@@ -14,7 +14,8 @@ class Solution(object):
             if i > 0 and nums[i] == nums[i - 1]:
                 continue
             
-            j, k = i + 1, len(nums) - 1
+            j = i+1
+            k = len(nums) - 1
             
             while j < k:
                 total = nums[i] + nums[j] + nums[k]
