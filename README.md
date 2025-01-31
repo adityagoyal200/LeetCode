@@ -1104,6 +1104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0175-combine-two-tables](https://github.com/adityagoyal200/LeetCode/tree/master/0175-combine-two-tables) |
 | [0176-second-highest-salary](https://github.com/adityagoyal200/LeetCode/tree/master/0176-second-highest-salary) |
+| [0182-duplicate-emails](https://github.com/adityagoyal200/LeetCode/tree/master/0182-duplicate-emails) |
 | [1523-capital-gainloss](https://github.com/adityagoyal200/LeetCode/tree/master/1523-capital-gainloss) |
 | [1541-top-travellers](https://github.com/adityagoyal200/LeetCode/tree/master/1541-top-travellers) |
 <!---LeetCode Topics End-->
