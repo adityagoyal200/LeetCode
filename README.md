@@ -1099,4 +1099,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/adityagoyal200/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/adityagoyal200/LeetCode/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
