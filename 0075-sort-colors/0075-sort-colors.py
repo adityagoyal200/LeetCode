@@ -3,10 +3,7 @@ class Solution(object):
         """
         :type nums: List[int]
         :rtype: None Do not return anything, modify nums in-place instead.
-        """
-        if nums is None or len(nums) == 0:
-            return nums
-        
+        """  
         low = 0
         mid = 0
         high = len(nums) -1
