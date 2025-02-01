@@ -1118,4 +1118,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1523-capital-gainloss](https://github.com/adityagoyal200/LeetCode/tree/master/1523-capital-gainloss) |
 | [1541-top-travellers](https://github.com/adityagoyal200/LeetCode/tree/master/1541-top-travellers) |
 | [1837-daily-leads-and-partners](https://github.com/adityagoyal200/LeetCode/tree/master/1837-daily-leads-and-partners) |
+| [1892-find-total-time-spent-by-each-employee](https://github.com/adityagoyal200/LeetCode/tree/master/1892-find-total-time-spent-by-each-employee) |
 <!---LeetCode Topics End-->
