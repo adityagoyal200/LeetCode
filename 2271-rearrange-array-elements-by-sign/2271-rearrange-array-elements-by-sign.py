@@ -12,7 +12,7 @@ class Solution(object):
             if nums[i] < 0:
                 result[neg] = nums[i]
                 neg = neg+2
-            if nums[i] > 0:
+            else:
                 result[pos] = nums[i]
                 pos = pos+2
         
