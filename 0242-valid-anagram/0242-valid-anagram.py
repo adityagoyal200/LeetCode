@@ -9,6 +9,10 @@ class Solution(object):
             count[ord(char_s) - ord('a')] += 1
             count[ord(char_t) - ord('a')] -= 1
         
-        return all(c == 0 for c in count)
+        for i in count:
+            if i != 0:
+                return False
+        
+        return True
 
         
