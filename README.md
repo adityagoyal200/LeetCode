@@ -1122,6 +1122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0626-exchange-seats](https://github.com/adityagoyal200/LeetCode/tree/master/0626-exchange-seats) |
 | [1135-customers-who-bought-all-products](https://github.com/adityagoyal200/LeetCode/tree/master/1135-customers-who-bought-all-products) |
 | [1153-product-sales-analysis-i](https://github.com/adityagoyal200/LeetCode/tree/master/1153-product-sales-analysis-i) |
+| [1268-market-analysis-i](https://github.com/adityagoyal200/LeetCode/tree/master/1268-market-analysis-i) |
 | [1523-capital-gainloss](https://github.com/adityagoyal200/LeetCode/tree/master/1523-capital-gainloss) |
 | [1541-top-travellers](https://github.com/adityagoyal200/LeetCode/tree/master/1541-top-travellers) |
 | [1837-daily-leads-and-partners](https://github.com/adityagoyal200/LeetCode/tree/master/1837-daily-leads-and-partners) |
