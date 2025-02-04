@@ -1,5 +1,3 @@
-from collections import deque
-
 class Solution(object):
     def ladderLength(self, beginWord, endWord, wordList):
         if len(beginWord) != len(endWord):
