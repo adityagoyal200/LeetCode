@@ -4,7 +4,7 @@ class Solution(object):
         result = []
         
         def backtrack(start, path):
-            result.append(path[:])
+            result.append(path[0:])
             
             for i in range(start, len(nums)):
                 if i > start and nums[i] == nums[i - 1]:
