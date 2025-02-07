@@ -784,6 +784,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/adityagoyal200/LeetCode/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0099-recover-binary-search-tree) |
 | [0100-same-tree](https://github.com/adityagoyal200/LeetCode/tree/master/0100-same-tree) |
