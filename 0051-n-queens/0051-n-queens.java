@@ -1,22 +1,27 @@
 class Solution {
     List<List<String>> result;
     public List<List<String>> solveNQueens(int n) {
-        if(n <= 0 || n == 2 || n == 3){
-            return new ArrayList<>();
+        result = new ArrayList<>();
+
+        if(n <= 0) return result;
+
+        int[][] board = new int[n][n];
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < n;j++){
+                board[i][j] = 0;
+            }
         }
 
-        result = new ArrayList<>();
-        int[][] board = new int[n][n];
-        helper(board,0,n);
+        solve(board,0);
 
         return result;
     }
-    private void helper(int[][] board,int row,int n){
-        if(row == n){
+    private void solve(int[][] board,int row){
+        if(row == board.length){
             List<String> temp = new ArrayList<>();
-            for(int i = 0; i <n; i++){
+            for(int i = 0; i < board.length; i++){
                 StringBuilder sb = new StringBuilder();
-                for(int j = 0; j< n; j++){
+                for(int j = 0; j < board[0].length; j++){
                     if(board[i][j] == 1){
                         sb.append("Q");
                     } else {
@@ -26,34 +31,45 @@ class Solution {
                 temp.add(sb.toString());
             }
             result.add(temp);
-            return;
         }
 
-        for(int col = 0; col < n; col++){
-            if(isSafe(board,row,col,n)){
+
+        for(int col = 0; col < board.length; col++){
+            if(isSafe(board,row,col)){
                 board[row][col] = 1;
-                helper(board,row+1,n);
+                solve(board,row+1);
                 board[row][col] = 0;
-            }
+            } 
         }
     }
-    private boolean isSafe(int[][] board,int row, int col, int n){ 
-        for(int i = row; i >= 0; i--){
-            if(board[i][col] == 1) return false;
+
+    private boolean isSafe(int[][] board,int row, int col){
+        for(int i = 0; i < board.length; i++){
+            if(board[i][col] == 1){
+                return false;
+            }
         }
 
-        int i = row; int  j = col;
+        int i = row;
+        int j = col;
+
         while(i >= 0 && j >= 0){
-            if(board[i][j] == 1) return false;
-            i--;j--;
+            if(board[i][j] == 1){
+                return false;
+            }
+            i--;
+            j--;
         }
 
         i = row;
         j = col;
 
-        while(i >= 0 && j < n){
-            if(board[i][j] == 1) return false;
-            i--;j++;
+        while(i >= 0 && j < board.length){
+            if(board[i][j] == 1){
+                return false;
+            }
+            i--;
+            j++;
         }
 
         return true;
