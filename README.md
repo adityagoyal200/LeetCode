@@ -190,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/adityagoyal200/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3541-report-spam-message](https://github.com/adityagoyal200/LeetCode/tree/master/3541-report-spam-message) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/adityagoyal200/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3558-find-a-safe-walk-through-a-grid](https://github.com/adityagoyal200/LeetCode/tree/master/3558-find-a-safe-walk-through-a-grid) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/adityagoyal200/LeetCode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 ## Two Pointers
 |  |
@@ -498,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/adityagoyal200/LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2685-first-completely-painted-row-or-column](https://github.com/adityagoyal200/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/adityagoyal200/LeetCode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
+| [3558-find-a-safe-walk-through-a-grid](https://github.com/adityagoyal200/LeetCode/tree/master/3558-find-a-safe-walk-through-a-grid) |
 ## Linked List
 |  |
 | ------- |
@@ -864,6 +866,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2692-take-gifts-from-the-richest-pile](https://github.com/adityagoyal200/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/adityagoyal200/LeetCode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/adityagoyal200/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3558-find-a-safe-walk-through-a-grid](https://github.com/adityagoyal200/LeetCode/tree/master/3558-find-a-safe-walk-through-a-grid) |
 ## Merge Sort
 |  |
 | ------- |
@@ -981,6 +984,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/adityagoyal200/LeetCode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/adityagoyal200/LeetCode/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/adityagoyal200/LeetCode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
+| [3558-find-a-safe-walk-through-a-grid](https://github.com/adityagoyal200/LeetCode/tree/master/3558-find-a-safe-walk-through-a-grid) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -1014,11 +1018,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/adityagoyal200/LeetCode/tree/master/0547-number-of-provinces) |
 | [1325-path-with-maximum-probability](https://github.com/adityagoyal200/LeetCode/tree/master/1325-path-with-maximum-probability) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/adityagoyal200/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [3558-find-a-safe-walk-through-a-grid](https://github.com/adityagoyal200/LeetCode/tree/master/3558-find-a-safe-walk-through-a-grid) |
 ## Shortest Path
 |  |
 | ------- |
 | [1325-path-with-maximum-probability](https://github.com/adityagoyal200/LeetCode/tree/master/1325-path-with-maximum-probability) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/adityagoyal200/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [3558-find-a-safe-walk-through-a-grid](https://github.com/adityagoyal200/LeetCode/tree/master/3558-find-a-safe-walk-through-a-grid) |
 ## Bit Manipulation
 |  |
 | ------- |
