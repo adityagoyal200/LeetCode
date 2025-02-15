@@ -1,11 +1,12 @@
 class Solution {
     public int punishmentNumber(int n) {
         int punishmentNum = 0;
+        
         for (int curr = 1; curr <= n; curr++) {
             int square = curr * curr;
-            if (canPartition(square, curr))
-                punishmentNum += square;
+            if (canPartition(square, curr)) punishmentNum += square;
         }
+        
         return punishmentNum;
     }
 
