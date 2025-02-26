@@ -191,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/adityagoyal200/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3331-minimum-operations-to-exceed-threshold-value-i](https://github.com/adityagoyal200/LeetCode/tree/master/3331-minimum-operations-to-exceed-threshold-value-i) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/adityagoyal200/LeetCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
+| [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/adityagoyal200/LeetCode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/adityagoyal200/LeetCode/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3429-special-array-i](https://github.com/adityagoyal200/LeetCode/tree/master/3429-special-array-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/adityagoyal200/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
