@@ -14,14 +14,13 @@ class Solution {
 
         for (int i = 1; i < arr.length; i++) {
             for (int j = i - 1; j >= 0; j--) {
-                // Look for arr[k] such that arr[k] + arr[j] = arr[i], i.e., arr[k] = arr[i] - arr[j]
                 int diff = arr[i] - arr[j];
                 if (diff < arr[j] && indexMap.containsKey(diff)) {
                     int k = indexMap.get(diff);
                     dp[j][i] = dp[k][j] + 1;
                     maxLen = Math.max(maxLen, dp[j][i]);
                 } else {
-                    dp[j][i] = 2; // Start a new Fibonacci sequence with arr[j] and arr[i]
+                    dp[j][i] = 2; 
                 }
             }
         }
