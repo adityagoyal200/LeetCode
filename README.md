@@ -195,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/adityagoyal200/LeetCode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/adityagoyal200/LeetCode/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3429-special-array-i](https://github.com/adityagoyal200/LeetCode/tree/master/3429-special-array-i) |
+| [3430-count-days-without-meetings](https://github.com/adityagoyal200/LeetCode/tree/master/3430-count-days-without-meetings) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/adityagoyal200/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3541-report-spam-message](https://github.com/adityagoyal200/LeetCode/tree/master/3541-report-spam-message) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/adityagoyal200/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -289,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2846-robot-collisions](https://github.com/adityagoyal200/LeetCode/tree/master/2846-robot-collisions) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/adityagoyal200/LeetCode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3291-find-if-array-can-be-sorted](https://github.com/adityagoyal200/LeetCode/tree/master/3291-find-if-array-can-be-sorted) |
+| [3430-count-days-without-meetings](https://github.com/adityagoyal200/LeetCode/tree/master/3430-count-days-without-meetings) |
 ## Hash Table
 |  |
 | ------- |
