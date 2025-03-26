@@ -2,36 +2,39 @@ class Solution {
     public int minOperations(int[][] grid, int x) {
         int m = grid.length, n = grid[0].length;
         int total = m * n;
+        int base = grid[0][0];
         int[] values = new int[total];
         int index = 0;
-        int base = grid[0][0];
-
+        
+        // Single pass: validate and collect values
         for (int[] row : grid) {
             for (int val : row) {
-                if ((val - base) % x != 0) {
-                    return -1;
-                }
-                values[index++] = val;
+                if ((val - base) % x != 0) return -1;
+                values[index++] = (val - base) / x; // Normalize values
             }
         }
-
-        int median = quickselect(values, total / 2, 0, total - 1);
         
-
+        // Find median of normalized values
+        int median = findKthSmallest(values, total / 2);
+        
+        // Calculate operations
         int operations = 0;
         for (int val : values) {
-            operations += Math.abs(val - median) / x;
+            operations += Math.abs(val - median);
         }
         
         return operations;
     }
     
+    // Quickselect to find kth smallest element (average O(n) time)
+    private int findKthSmallest(int[] nums, int k) {
+        return quickselect(nums, k, 0, nums.length - 1);
+    }
+    
     private int quickselect(int[] nums, int k, int left, int right) {
         if (left == right) return nums[left];
         
-        Random rand = new Random();
-        int pivotIndex = left + rand.nextInt(right - left);
-        pivotIndex = partition(nums, left, right, pivotIndex);
+        int pivotIndex = partition(nums, left, right);
         
         if (k == pivotIndex) {
             return nums[k];
@@ -42,20 +45,18 @@ class Solution {
         }
     }
     
-    private int partition(int[] nums, int left, int right, int pivotIndex) {
-        int pivotValue = nums[pivotIndex];
-        swap(nums, pivotIndex, right);
-        int storeIndex = left;
+    private int partition(int[] nums, int left, int right) {
+        int pivotValue = nums[right];
+        int i = left;
         
-        for (int i = left; i < right; i++) {
-            if (nums[i] < pivotValue) {
-                swap(nums, storeIndex, i);
-                storeIndex++;
+        for (int j = left; j < right; j++) {
+            if (nums[j] <= pivotValue) {
+                swap(nums, i, j);
+                i++;
             }
         }
-        
-        swap(nums, right, storeIndex);
-        return storeIndex;
+        swap(nums, i, right);
+        return i;
     }
     
     private void swap(int[] nums, int i, int j) {
