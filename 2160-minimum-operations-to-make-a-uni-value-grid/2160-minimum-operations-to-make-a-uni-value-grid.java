@@ -6,18 +6,15 @@ class Solution {
         int[] values = new int[total];
         int index = 0;
         
-        // Single pass: validate and collect values
         for (int[] row : grid) {
             for (int val : row) {
                 if ((val - base) % x != 0) return -1;
-                values[index++] = (val - base) / x; // Normalize values
+                values[index++] = (val - base) / x; 
             }
         }
         
-        // Find median of normalized values
         int median = findKthSmallest(values, total / 2);
         
-        // Calculate operations
         int operations = 0;
         for (int val : values) {
             operations += Math.abs(val - median);
@@ -26,7 +23,6 @@ class Solution {
         return operations;
     }
     
-    // Quickselect to find kth smallest element (average O(n) time)
     private int findKthSmallest(int[] nums, int k) {
         return quickselect(nums, k, 0, nums.length - 1);
     }
