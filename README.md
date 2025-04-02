@@ -189,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2792-neighboring-bitwise-xor](https://github.com/adityagoyal200/LeetCode/tree/master/2792-neighboring-bitwise-xor) |
 | [2846-robot-collisions](https://github.com/adityagoyal200/LeetCode/tree/master/2846-robot-collisions) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/adityagoyal200/LeetCode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
+| [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/adityagoyal200/LeetCode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3291-find-if-array-can-be-sorted](https://github.com/adityagoyal200/LeetCode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/adityagoyal200/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3331-minimum-operations-to-exceed-threshold-value-i](https://github.com/adityagoyal200/LeetCode/tree/master/3331-minimum-operations-to-exceed-threshold-value-i) |
