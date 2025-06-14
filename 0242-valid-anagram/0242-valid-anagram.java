@@ -11,8 +11,8 @@ class Solution {
             charArray[t.charAt(i)-'a']--;
         }
 
-        for(int i = 0; i < charArray.length; i++){
-            if(charArray[i] != 0) return false;
+        for(int val: charArray){
+            if(val != 0) return false;
         }
 
         return true;
